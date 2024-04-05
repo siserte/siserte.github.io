@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Sergio Iserte PhD"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://siserte.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "siserte/siserte.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "2023.jpg"
-  name             : "Sergio Iserte"
+  name             : # "Sergio Iserte"
   pronouns         : # example: "she/her"  
   bio              : "Sergio Iserte holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain. Sergio is a senior researcher in the Computer Science Department at Barcelona Supercomputing Center (BSC), and instructor of the High-performance Computing (HPC) course in the Computer Science Master at Open University of Catalonia (UOC). He is currently involved in projects related to parallel distributed computing, resource management, workload modeling, deep learning for industrial applications, and in-network accelerators."
   location         : "Almassora, Castelló (Spain)"
-  employer         : "Barcelona Supercomputing Center (BSC)"
+  employer         : "Barcelona Supercomputing Center<br>Universitat Oberta de Catalunya"
   uri              : "http://bit.ly/siserte"
   email            : "sergioiserte@gmail.com" 
 
@@ -39,7 +39,7 @@ author:
   researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : "siserte"
+  bitbucket        : #"siserte"
   codepen          : # Username
   dribbble         : # Username
   github           : "siserte"
@@ -107,7 +107,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
