@@ -7,5 +7,5 @@ content: "PhD Predefense Committee Member"
 type: "Master's Degree in Computational and Mathematical Engineering"
 venue: "Universitat Oberta de Catalunya (UOC)"
 location: "Online"
-content: "<h3>PhD Predefense Committee Member<\h3>"
+content: "PhD Predefense Committee Member"
 ---
