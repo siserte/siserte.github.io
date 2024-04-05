@@ -30,9 +30,11 @@
     {% if post.collection == 'teaching' %}
     <p> {{ post.type }}, <i>{{ post.venue }}</i>.</p>
     <p> {{ post.period }}.</p>
-    {% else if post.collection =="other" %}
+    {% else %}
+    {% if post.collection =="other" %}
     {{ post.data }}
     {% endif %}
-
+    {% endif %}
+    
   </article>
 </div>

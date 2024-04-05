@@ -1,6 +1,6 @@
 ---
 title: "Other Courses"
-collection: teaching
+collection: other
 permalink: /teaching/other-courses
 date: 2015-09-01
 ---
