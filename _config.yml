@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Sergio Iserte"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Sergio Iserte holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain. Sergio is a senior researcher in the Computer Science Department at Barcelona Supercomputing Center (BSC), and instructor of the High-performance Computing (HPC) course in the Computer Science Master at Open University of Catalonia (UOC). He is currently involved in projects related to parallel distributed computing, resource management, workload modeling, deep learning for industrial applications, and in-network accelerators."
+  location         : "Almassora, Castelló (Spain)"
+  employer         : "Barcelona Supercomputing Center (BSC)"
+  uri              : "http://bit.ly/siserte
+  email            : "sergioiserte@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
