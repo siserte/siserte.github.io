@@ -13,18 +13,12 @@ author_profile: true
 
 
 <h2> Advisored Students </h2>
-{% for post in site.publications reversed %}
-  {% if post.cat == "2" %}
 
-    <div class="{{ include.type | default: " list" }}__item">
-      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">    
-        <h2>{{ post.title }}</h2>
-    
-        <p> {{ post.type }}, <i>{{ post.venue }}</i>. </p>
-        <p> {{ post.content }}. </p>
-    
-      </article>
-    </div>
+<h2> Academic Committees </h2>
+"<h3>PhD Predefense Committee Member<\h3>
+  <ol>
+  <li>Omar Shaaban: \"Productive Programming of Irregular Data Structures on Distributed Memory\", Universitat Politècnica de Catalunya 2024</li>
+  <li>Felippe Vieira Zacarias: \"Job scheduling for disaggregated memory in high performance computing systems\",  Universitat Politècnica de Catalunya 2023<\li>
+  <li>Jimmy Aguilar Mena: \"Methodology for malleable applications on distributed memory systems\", Universitat Politècnica de Catalunya 2022<\li>
+  <\ol>"
 
-  {% endif %}
-{% endfor %}
