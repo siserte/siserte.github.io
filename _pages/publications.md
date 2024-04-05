@@ -15,7 +15,7 @@ author_profile: true
 
 <h2> International Conferences </h2>
 
-{% for post in site.publications/journals reversed %}
+{% for post in site.pub-journals reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
