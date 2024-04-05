@@ -27,12 +27,9 @@
     <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    <p>{{ post.collection }}</p>
-
     {% if post.collection == 'teaching' %}
     <p> {{ post.type }}, <i>{{ post.venue }}</i>.</p>
     <p> {{ post.period }}.</p>
-    {% else %}
     <p>{{ post.data }}</p>
     {% endif %}
 
