@@ -2,7 +2,7 @@
 title: "Dynamic reconfiguration of noniterative scientific applications: A case study with HPG aligner"
 collection: publications
 permalink: /publication/2019-09-01-Dynamic-reconfiguration-of-noniterative-scientific-applications-A-case-study-with-HPG-aligner
-type: journal
+type: "journal"
 excerpt: 'Publisher: SAGE Publications Ltd STM'
 date: 2019-09-01
 venue: '<em>The International Journal of High Performance Computing Applications</em>(33), pp. 804--816'

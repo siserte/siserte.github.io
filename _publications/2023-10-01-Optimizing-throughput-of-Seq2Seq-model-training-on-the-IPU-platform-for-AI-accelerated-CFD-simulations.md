@@ -2,7 +2,7 @@
 title: "Optimizing throughput of Seq2Seq model training on the IPU platform for AI-accelerated CFD simulations"
 collection: publications
 permalink: /publication/2023-10-01-Optimizing-throughput-of-Seq2Seq-model-training-on-the-IPU-platform-for-AI-accelerated-CFD-simulations
-type: journal
+type: "journal"
 date: 2023-10-01
 venue: '<em>Future Generation Computer Systems</em>(147), pp. 149--162'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0167739X23001784'

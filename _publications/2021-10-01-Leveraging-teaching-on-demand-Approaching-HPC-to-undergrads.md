@@ -1,10 +1,9 @@
 ---
-title: "Leveraging teaching on demand: Approaching HPC to undergrads"
+title: "Leveraging Teaching on Demand: Approaching HPC to Undergrads"
 collection: publications
-permalink: /publication/2021-10-01-Leveraging-teaching-on-demand-Approaching-HPC-to-undergrads
-type: journal
+permalink: /publication/2021-10-01-Leveraging-Teaching-on-Demand-Approaching-HPC-to-Undergrads
+type: "journal"
 date: 2021-10-01
-venue: '<em>Journal of Parallel and Distributed Computing</em>(156), pp. 148--162'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0743731521001271'
-citation: ' S. Catalán,  R. Carratalá-Sáez, and  <strong>S. Iserte</strong>, &quot;Leveraging teaching on demand: Approaching HPC to undergrads.&quot; <em>Journal of Parallel and Distributed Computing</em>(156), pp. 148--162, Oct. 2021. ISSN: 0743-7315.'
+venue: '<em>Journal of Parallel and Distributed Computing</em>(156), pp. 148-162'
+citation: ' S. Catalán,  R. Carratalá-Sáez, and  <strong>S. Iserte</strong>, &quot;Leveraging Teaching on Demand: Approaching HPC to Undergrads.&quot; <em>Journal of Parallel and Distributed Computing</em>(156), pp. 148-162, Oct. 2021. ISSN: 0743-7315.'
 ---
