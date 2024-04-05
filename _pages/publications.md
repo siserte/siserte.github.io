@@ -16,7 +16,28 @@ author_profile: true
 
 <h2> International Conferences </h2>
 {% for post in site.publications reversed %}
-  {% if post.type == "journal" %}
+  {% if post.type == "conference" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2> International Workshops </h2>
+{% for post in site.publications reversed %}
+  {% if post.type == "workshop" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2> Books and Chapters </h2>
+{% for post in site.publications reversed %}
+  {% if post.type == "book" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2> National Conferences </h2>
+{% for post in site.publications reversed %}
+  {% if post.type == "national" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
