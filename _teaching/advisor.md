@@ -6,6 +6,6 @@ date: 2017-09-01
 type: "Master's Degree in Computational and Mathematical Engineering"
 venue: "Universitat Oberta de Catalunya (UOC)"
 location: "Online"
-type: "2"
+cat: "2"
 content: "PhD Predefense Committee Member"
 ---
