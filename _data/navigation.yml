@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
@@ -8,15 +11,13 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+
+  - title: "Scientific Committees"
+    url: /committees/    
+  
+  - title: "Activities"
+    url: /activities/    
+  
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
