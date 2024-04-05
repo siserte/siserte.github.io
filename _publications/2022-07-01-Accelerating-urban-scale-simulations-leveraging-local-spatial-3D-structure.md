@@ -2,6 +2,7 @@
 title: "Accelerating urban scale simulations leveraging local spatial 3D structure"
 collection: publications
 permalink: /publication/2022-07-01-Accelerating-urban-scale-simulations-leveraging-local-spatial-3D-structure
+type: journal
 date: 2022-07-01
 venue: '<em>Journal of Computational Science</em>(62), pp. 101741'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1877750322001326'

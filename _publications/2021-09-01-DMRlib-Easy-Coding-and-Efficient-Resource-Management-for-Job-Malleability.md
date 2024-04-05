@@ -2,6 +2,7 @@
 title: "DMRlib: Easy-Coding and Efficient Resource Management for Job Malleability"
 collection: publications
 permalink: /publication/2021-09-01-DMRlib-Easy-Coding-and-Efficient-Resource-Management-for-Job-Malleability
+type: journal
 excerpt: 'Conference Name: IEEE Transactions on Computers'
 date: 2021-09-01
 venue: '<em>IEEE Transactions on Computers</em>(70), pp. 1443--1457'

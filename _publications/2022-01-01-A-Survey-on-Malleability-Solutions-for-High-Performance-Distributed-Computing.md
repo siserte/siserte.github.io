@@ -2,6 +2,7 @@
 title: "A Survey on Malleability Solutions for High-Performance Distributed Computing"
 collection: publications
 permalink: /publication/2022-01-01-A-Survey-on-Malleability-Solutions-for-High-Performance-Distributed-Computing
+type: journal
 excerpt: 'Number: 10 Publisher: Multidisciplinary Digital Publishing Institute'
 date: 2022-01-01
 venue: '<em>Applied Sciences</em>(12), pp. 5231'
