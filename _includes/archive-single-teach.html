@@ -31,10 +31,8 @@
     <p> {{ post.type }}, <i>{{ post.venue }}</i>.</p>
     <p> {{ post.period }}.</p>
     {% else %}
-    {% if post.collection =="other" %}
-    {{ post.data }}
+    <p>{{ post.data }}</p>
     {% endif %}
-    {% endif %}
-    
+
   </article>
 </div>
