@@ -11,8 +11,20 @@ author_profile: true
   {% include archive-single-teach.html %}
 {% endfor %}
 
+
+<h2> Advisored Students </h2>
 {% for post in site.publications reversed %}
   {% if post.cat == "2" %}
-    {% include archive-single-teach.html %}
+
+    <div class="{{ include.type | default: " list" }}__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">    
+        <h2>{{ post.title }}</h2>
+    
+        <p> {{ post.type }}, <i>{{ post.venue }}</i>. </p>
+        <p> {{ post.content }}. </p>
+    
+      </article>
+    </div>
+
   {% endif %}
 {% endfor %}
