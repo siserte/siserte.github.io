@@ -1,5 +1,7 @@
 ---
 title: "Leveraging teaching on demand: Approaching HPC to undergrads"
+collection: publications
+permalink: /publication/2021-10-01-Leveraging-teaching-on-demand-Approaching-HPC-to-undergrads
 date: 2021-10-01
 venue: '<em>Journal of Parallel and Distributed Computing</em>(156), pp. 148--162'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0743731521001271'

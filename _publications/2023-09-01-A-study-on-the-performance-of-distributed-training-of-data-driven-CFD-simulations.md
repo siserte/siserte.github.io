@@ -1,5 +1,7 @@
 ---
 title: "A study on the performance of distributed training of data-driven CFD simulations"
+collection: publications
+permalink: /publication/2023-09-01-A-study-on-the-performance-of-distributed-training-of-data-driven-CFD-simulations
 excerpt: 'Publisher: SAGE Publications Ltd STM'
 date: 2023-09-01
 venue: '<em>The International Journal of High Performance Computing Applications</em>(37), pp. 503--515'
