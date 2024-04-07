@@ -1,41 +1,38 @@
 {% include base_path %}
 
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+{% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %}
+{% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: " list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
+    <div class="archive__item-teaser">
+      <img src={% if teaser contains "://" %} "{{ teaser }}" {% else %} "{{ teaser | prepend: " /images/" | prepend:
+        base_path }}" {% endif %} alt="">
+    </div>
     {% endif %}
-    
+
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.url %}
-        <a href="{{ post.url }}">{{ title }}</a>
-      {% else %}
+      <a href="{{ post.url }}">
+        {% endif %}
         {{ title }}
+        {% if post.url %}
+      </a>
       {% endif %}
     </h3>
 
-    <p class="archive__item-excerpt" itemprop="description">{{ post.venue }},  {{post.location}}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.venue }}, {{post.location}}</p>
     <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
-  
+
   </article>
 </div>
