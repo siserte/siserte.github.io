@@ -22,13 +22,9 @@
     {% endif %}
 
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.url %}
-      <a href="{{ post.url }}">
-        {% endif %}
+
         {{ title }}
-        {% if post.url %}
-      </a>
-      {% endif %}
+
     </h3>
 
     <p class="archive__item-excerpt" itemprop="description">{{ post.venue }}, {{post.location}}</p>
