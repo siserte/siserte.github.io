@@ -11,35 +11,31 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
-
 <h2> International Conferences </h2>
-{% for post in site.publications reversed %}
+{% for post in site.talks reversed %}
   {% if post.type == "conference" %}
-    {% include archive-single-pub.html %}
+    {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
 
 <h2> International Workshops </h2>
-{% for post in site.publications reversed %}
+{% for post in site.talks reversed %}
   {% if post.type == "workshop" %}
-    {% include archive-single-pub.html %}
+    {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
 
 <h2> Seminars </h2>
-{% for post in site.publications reversed %}
+{% for post in site.talks reversed %}
   {% if post.type == "seminar" %}
-    {% include archive-single-pub.html %}
+    {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
 
 <h2> National Conferences </h2>
-{% for post in site.publications reversed %}
+{% for post in site.talks reversed %}
   {% if post.type == "national" %}
-    {% include archive-single-pub.html %}
+    {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
 
