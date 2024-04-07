@@ -21,15 +21,7 @@
     </div>
     {% endif %}
 
-    <h3>
-      {% if post.url %}
-      <a href="{{ post.url }}">
-        {% endif %}
-        {{ title }}
-        {% if post.url %}
-      </a>
-      {% endif %}
-    </h3>
+    <h3> {{ title }} </h3>
 
     <p class="archive__item-excerpt" itemprop="description">{{ post.venue }}, {{post.location}}</p>
     <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
