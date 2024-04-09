@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8588897,
-    2.3200410217200766
+    48.8534951,
+    2.3483915
   ],
   [
     "Barcelona, Spain",
@@ -103,5 +103,85 @@ var addressPoints = [
     "Kobe, Japan",
     34.6932379,
     135.1943764
+  ],
+  [
+    "Belfast, Northern Ireland (UK)",
+    54.596391,
+    -5.9301829
+  ],
+  [
+    "Berkeley, California (USA)",
+    37.8708393,
+    -122.272863
+  ],
+  [
+    "St. Charles, Illinois (USA)",
+    41.9139808,
+    -88.3128183
+  ],
+  [
+    "Fiuggi (Italy)",
+    41.7985608,
+    13.2204887
+  ],
+  [
+    "Amsterdam (Netherlands)",
+    52.3730796,
+    4.8924534
+  ],
+  [
+    "Ljubljana (Slovenia)",
+    46.0500268,
+    14.5069289
+  ],
+  [
+    "Timisoara (Romania)",
+    45.7538355,
+    21.2257474
+  ],
+  [
+    "Denver, Colorado (USA)",
+    39.7392364,
+    -104.984862
+  ],
+  [
+    "Dallas, Texas (USA)",
+    32.7762719,
+    -96.7968559
+  ],
+  [
+    "Salt Lake City, Utah (USA)",
+    40.7596198,
+    -111.886797
+  ],
+  [
+    "Austin, Texas (USA)",
+    30.2711286,
+    -97.7436995
+  ],
+  [
+    "Turin (Italy)",
+    45.0677551,
+    7.6824892
+  ],
+  [
+    "Grenoble (France)",
+    45.1875602,
+    5.7357819
+  ],
+  [
+    "Val\u00e8ncia (Spain)",
+    39.4697065,
+    -0.3763353
+  ],
+  [
+    "Almer\u00eda (Spain)",
+    36.8414197,
+    -2.4628135
+  ],
+  [
+    "Munich (Germany)",
+    48.1371079,
+    11.5753822
   ]
 ];

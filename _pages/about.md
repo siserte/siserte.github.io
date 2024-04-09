@@ -15,8 +15,8 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <p>He is currently involved in projects of parallel distributed programming models, dynamic resource management, workload modeling, deep learning for industrial applications, and in-network accelerators.</p>
 
 {% if site.talkmap_link == true %}
-<p>See in this map all the places where science has taken me! </p>
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+<p>See in this map all the places where science has taken him! </p>
+<iframe src="/talkmap/map.html" height="600" width="750" style="border:none;"></iframe>
 {% endif %}
 
 News
