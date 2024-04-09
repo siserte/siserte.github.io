@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Life and work of a devoted HPC researcher"
+title: "HPC Dr. Iserte"
 author_profile: true
 redirect_from: 
   - /about/
