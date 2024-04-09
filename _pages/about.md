@@ -16,7 +16,7 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 
 {% if site.talkmap_link == true %}
 <p>See in this map all the places where science has taken him! </p>
-<iframe src="/talkmap/map.html" height="600" width="750" style="border:none;"></iframe>
+<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
 {% endif %}
 
 News
