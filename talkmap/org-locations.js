@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "Barcelona, Spain",
@@ -68,16 +68,6 @@ var addressPoints = [
     "Rennes, France",
     48.1113387,
     -1.6800198
-  ],
-  [
-    "Frankfurt, Germany",
-    50.1106444,
-    8.6820917
-  ],
-  [
-    "Online",
-    43.59047185,
-    3.8595132132013186
   ],
   [
     "Politechnika Cz\u0119stochowska, Poland",
@@ -140,11 +130,6 @@ var addressPoints = [
     21.2257474
   ],
   [
-    "Denver, Colorado (USA)",
-    39.7392364,
-    -104.984862
-  ],
-  [
     "Dallas, Texas (USA)",
     32.7762719,
     -96.7968559
@@ -183,5 +168,30 @@ var addressPoints = [
     "Munich (Germany)",
     48.1371079,
     11.5753822
+  ],
+  [
+    "Gdansk (Poland)",
+    54.42880315,
+    18.79832701217957
+  ],
+  [
+    "Benic\u00e0ssim (Spain)",
+    40.0554964,
+    0.0644165
+  ],
+  [
+    "Le\u00f3n (Spain)",
+    42.63414505,
+    -5.971415104539984
+  ],
+  [
+    "Alboraia (Spain)",
+    39.5009954,
+    -0.34948
+  ],
+  [
+    "Standford, California (USA)",
+    37.591115,
+    -120.943603
   ]
 ];
