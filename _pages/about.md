@@ -19,8 +19,10 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <iframe src="/talkmap/map.html" height="700" width="900" style="border:none;"></iframe>
 {% endif %}
 
+{% comment %}
 News
 ======
 <p><strong>[Apr. 9 2024]</strong> New personal web page has been released!</p>
+{% endcomment %}
 
 <p><a class="twitter-timeline" href="https://twitter.com/siserte?ref_src=twsrc%5Etfw">Tweets by siserte</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
