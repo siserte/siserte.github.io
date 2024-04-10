@@ -190,8 +190,18 @@ var addressPoints = [
     -0.34948
   ],
   [
-    "Standford, California (USA)",
-    37.591115,
-    -120.943603
+    "Stanford, California (USA)",
+    37.427467,
+    -122.1702445
+  ],
+  [
+    "Burjassot (Spain)",
+    39.5090599,
+    -0.4108581
+  ],
+  [
+    "Almassora (Spain)",
+    39.9435743,
+    -0.0634783
   ]
 ];
