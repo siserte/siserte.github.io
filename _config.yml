@@ -36,7 +36,8 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-3654-7924"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Sergio-Iserte"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=54953339400"
 
   # Repositories and software development
   bitbucket        : #"siserte"
