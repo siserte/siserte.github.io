@@ -27,7 +27,7 @@ author:
   bio              : #"Sergio Iserte holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain. Sergio is a senior researcher in the Computer Science Dpt. at Barcelona Supercomputing Center (BSC), and instructor of High-performance Computing (HPC) courses at Open University of Catalonia (UOC). He is currently involved in projects of parallel distributed programming models, dynamic resource management, workload modeling, deep learning for industrial applications, and in-network accelerators."
   location         : "Almassora, Castelló (Spain)"
   employer         : "Barcelona Supercomputing Center"
-  uri              : "http://bit.ly/siserte"
+  uri              : "https://www.bsc.es/iserte-agut-sergio"
   email            : "sergioiserte@gmail.com" 
 
   # Academic websites
@@ -45,7 +45,7 @@ author:
   dribbble         : # Username
   github           : "siserte"
   kaggle           : # Username  
-  stackoverflow    : "bub-espinja"
+  stackoverflow    : "4286662"
 
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
