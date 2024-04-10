@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8588897,
-    2.3200410217200766
+    48.8534951,
+    2.3483915
   ],
   [
     "Barcelona, Spain",
@@ -123,11 +123,6 @@ var addressPoints = [
     "Ljubljana (Slovenia)",
     46.0500268,
     14.5069289
-  ],
-  [
-    "Timisoara (Romania)",
-    45.7538355,
-    21.2257474
   ],
   [
     "Dallas, Texas (USA)",
