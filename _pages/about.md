@@ -20,8 +20,7 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <li>In-network acceleration</li>
 </ul>
 
-Participation in upcoming activities:
-======
+<h3>Participation in upcoming activities:</h3>
 <p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> OpenMP DPU Offloading Support (ODOS)</p>
 <p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> Dynamic Resources Utilization in Malleable Flooding Simulations</p>
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> Offloading Computation and Communication to BlueField DPUs using OpenMP and MPI</p>
@@ -29,7 +28,6 @@ Participation in upcoming activities:
 <p><strong>[May 15 2024] Panel @ ISC24:</strong> System Software in Support of Converged HPC Systems</p>
 <p><strong>[May 15 2024] BoF @ ISC24:</strong> 1st  Bird of Feather on Artificial Intelligence and Machine Learning for HPC Workload Analysis</p>
 <p><strong>[Oct. 7-9 2024] MNHack24:</strong> <a href_="www.bsc.es/MNHack_24"> 6th Marenostrum Hackathon at BSC</a></p>
-
 
 {% comment %}
 News
