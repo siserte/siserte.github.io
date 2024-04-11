@@ -9,10 +9,33 @@ redirect_from:
 
 <p>holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain.</p>
 
-<p>Sergio is a senior researcher of <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom Research Group</a>, led by Dr. Antonio J. Peña, in Computer Science Dpt. at Barcelona Supercomputing Center (BSC).
+<p>Sergio is a senior researcher of the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, in Computer Science Dpt. at Barcelona Supercomputing Center (BSC).
 He is also an instructor of High-performance Computing (HPC) courses at Open University of Catalonia (UOC).</p>
 
-<p>He is currently involved in projects of parallel distributed programming models, dynamic resource management, workload modeling, deep learning for industrial applications, and in-network accelerators.</p>
+<p>His research interests lie, mainly, in the following areas:
+<ul>
+<li>Parallel distributed programming models</li>
+<li>Dynamic processes and resources management</li>
+<li>HPC workload modeling</li>
+<li>In-network acceleration</li>
+</lu>
+</p>
+
+Presence at upcoming events:
+======
+<lu>
+<li><p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> Offloading Computation and Communication to BlueField DPUs using OpenMP and MPI</p></li>
+<li><p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> Efficient Cluster Resource Utilization in HPC Applications</p></li>
+<li><p><strong>[May 15 2024] Panel @ ISC24:</strong> System Software in Support of Converged HPC Systems</p></li>
+<li><p><strong>[May 15 2024] BoF @ ISC24:</strong> 1st  Bird of Feather on Artificial Intelligence and Machine Learning for HPC Workload Analysis</p></li>
+<li><p><strong>[Oct 7-9 2024] MNHack24:</strong> <a href_="www.bsc.es/MNHack_24"> 6th Marenostrum Hackathon at BSC</a></p></li>
+</lu>
+
+{% comment %}
+News
+======
+<p><strong>[Apr. 9 2024]</strong> New personal web page has been released!</p>
+{% endcomment %}
 
 {% if site.talkmap_link == true %}
 <p>See in this map all the places where science has taken him!</p>
