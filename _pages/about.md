@@ -20,7 +20,7 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <li>In-network acceleration</li>
 </ul>
 
-<h2>Participation in upcoming activities:</h2>
+<h2 style="color:gray;">Participation in upcoming activities:</h2>
 <p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "OpenMP DPU Offloading Support (ODOS)"</p>
 <p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "Dynamic Resources Utilization in Malleable Flooding Simulations"</p>
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> "Offloading Computation and Communication to BlueField DPUs using OpenMP and MPI"</p>
