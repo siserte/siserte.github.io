@@ -9,7 +9,7 @@ redirect_from:
 
 <p>holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain.</p>
 
-<p>Sergio is a senior researcher of the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, in Computer Science Dpt. at Barcelona Supercomputing Center (BSC).
+<p>Sergio is a senior researcher of the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, in the Computer Science department at Barcelona Supercomputing Center (BSC).
 He is also an instructor of High-performance Computing (HPC) courses at Open University of Catalonia (UOC).</p>
 
 <p>His research interests lie, mainly, in the following areas:</p>
@@ -21,13 +21,15 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 </ul>
 
 <h2 style="color:gray;">Participation in upcoming activities:</h2>
-<p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "OpenMP DPU Offloading Support (ODOS)"</p>
-<p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "Dynamic Resources Utilization in Malleable Flooding Simulations"</p>
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> "Offloading Computation and Communication to BlueField DPUs using OpenMP and MPI"</p>
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> "Efficient Cluster Resource Utilization in HPC Applications"</p>
 <p><strong>[May 15 2024] Panel @ ISC24:</strong> "System Software in Support of Converged HPC Systems"</p>
 <p><strong>[May 15 2024] BoF @ ISC24:</strong> "Artificial Intelligence and Machine Learning for HPC Workload Analysis"</p>
-<p><strong>[Oct. 7-9 2024] MNHack24:</strong> <a href_="www.bsc.es/MNHack_24"> 6th Marenostrum Hackathon at BSC</a></p>
+<p><strong>[Oct. 7-9 2024] General Chair @ MNHack24:</strong> <a href_="www.bsc.es/MNHack_24"> 6th Marenostrum Hackathon at BSC</a></p>
+
+<h2 style="color:gray;">Participation in recent activities:</h2>
+<p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "OpenMP DPU Offloading Support (ODOS)"</p>
+<p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "Dynamic Resources Utilization in Malleable Flooding Simulations"</p>
 
 {% comment %}
 News
