@@ -23,7 +23,7 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <h2 style="color:gray;">Participation in upcoming activities:</h2>
 <p><strong>[May 15 2024] Panel @ ISC24:</strong> "System Software in Support of Converged HPC Systems"</p>
 <p><strong>[May 15 2024] BoF @ ISC24:</strong> "Artificial Intelligence and Machine Learning for HPC Workload Analysis"</p>
-<p><strong>[Aug. 26-27 2024] Track Co-chair @ 3rd DynResHPC:</strong> <a href_="https://eventos.uc3m.es/112131/detail/3rd-eurohpc-workshop-on-dynamic-resources-in-hpc.html"> 3rd EuroHPC Workshop on Dynamic Resources in HPC held in conjuction with Euro-Par 2024</a></p>
+<p><strong>[Aug. 26-27 2024] Track Co-chair @ 3rd DynResHPC:</strong> <a href_="https://eventos.uc3m.es/112131/detail/3rd-eurohpc-workshop-on-dynamic-resources-in-hpc.html"> 3rd EuroHPC Workshop on Dynamic Resources in HPC held in conjunction with Euro-Par 2024</a></p>
 <p><strong>[Sep. 8-11 2024] Track Co-chair @ 2nd WAML-HPC:</strong> <a href_="https://sites.google.com/uji.es/waml-hpc22/home"> 2nd  Workshop on Applications of
 Machine Learning and Artificial Intelligence in High-Performance Computing held in conjuction with PPAM 2024</a></p>
 <p><strong>[Oct. 7-9 2024] General Co-chair @ MNHack24:</strong> <a href_="www.bsc.es/MNHack_24"> 6th Marenostrum Hackathon at BSC</a></p>
