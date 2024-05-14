@@ -70,9 +70,9 @@ var addressPoints = [
     -1.6800198
   ],
   [
-    "Politechnika Cz\u0119stochowska, Poland",
-    50.822852350000005,
-    19.115807327479168
+    "Cz\u0119stochowska, Poland",
+    50.9307515,
+    18.8582448
   ],
   [
     "Bordeaux, France",
@@ -93,6 +93,11 @@ var addressPoints = [
     "Kobe, Japan",
     34.6932379,
     135.1943764
+  ],
+  [
+    "Hamburg, Germany",
+    53.550341,
+    10.000654
   ],
   [
     "Belfast, Northern Ireland (UK)",
@@ -186,8 +191,8 @@ var addressPoints = [
   ],
   [
     "Stanford, California (USA)",
-    37.427467,
-    -122.1702445
+    37.426540700000004,
+    -122.17030545534064
   ],
   [
     "Burjassot (Spain)",
@@ -198,5 +203,10 @@ var addressPoints = [
     "Almassora (Spain)",
     39.9435743,
     -0.0634783
+  ],
+  [
+    "Sevilla (Spain)",
+    37.3886303,
+    -5.9953403
   ]
 ];
