@@ -6,8 +6,8 @@ var addressPoints = [
   ],
   [
     "Valladolid, Spain",
-    41.6521328,
-    -4.728562
+    41.6521807,
+    -4.728605
   ],
   [
     "Lugano, Switzerland",
@@ -70,9 +70,9 @@ var addressPoints = [
     -1.6800198
   ],
   [
-    "Politechnika Cz\u0119stochowska, Poland",
-    50.822852350000005,
-    19.115807327479168
+    "Cz\u0119stochowska, Poland",
+    50.9263731,
+    18.8685953
   ],
   [
     "Bordeaux, France",
@@ -93,6 +93,11 @@ var addressPoints = [
     "Kobe, Japan",
     34.6932379,
     135.1943764
+  ],
+  [
+    "Hamburg, Germany",
+    53.550341,
+    10.000654
   ],
   [
     "Belfast, Northern Ireland (UK)",
@@ -166,8 +171,8 @@ var addressPoints = [
   ],
   [
     "Gdansk (Poland)",
-    54.42880315,
-    18.79832701217957
+    54.3482907,
+    18.6540233
   ],
   [
     "Benic\u00e0ssim (Spain)",
@@ -186,8 +191,8 @@ var addressPoints = [
   ],
   [
     "Stanford, California (USA)",
-    37.427467,
-    -122.1702445
+    37.426540700000004,
+    -122.17030545534064
   ],
   [
     "Burjassot (Spain)",
@@ -198,5 +203,10 @@ var addressPoints = [
     "Almassora (Spain)",
     39.9435743,
     -0.0634783
+  ],
+  [
+    "Sevilla (Spain)",
+    37.3886303,
+    -5.9953403
   ]
 ];
