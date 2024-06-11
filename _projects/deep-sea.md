@@ -1,0 +1,17 @@
+---
+title: "DEEP-SEA"
+type: "research"
+funding: "EuroHPC-JU"
+pi: "P. Radojkovic"
+pi-inst: "BSC"
+start-date: "2021-04-01"
+end-date: "2024-03-31"
+grant: "1.1M€"
+role: "Researcher"
+wp: ""
+description: "Within the scope of Work Package 3, Sergio participates in the decision-making process of the mechanisms to tackle dynamic resources"
+my-start-date: ""
+my-end-date: ""
+url: ""
+doi: "doi.org/10.3030/955606"
+---

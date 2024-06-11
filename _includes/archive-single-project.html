@@ -1,0 +1,12 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p><strong>{{ post.title }}</strong> ({{ post.funding }}) - P. I.: {{ post.pi }}, {{ post.pi_inst }}. 
+      {{ post.start-date }} - {{ post.end-date }}. {{ post.grant }}. {{ post.role }} - {{ post.description }}. <a href="https://{{ post.doi }}"> {{ post.doi }}</a></p>
+
+  </article>
+</div>
+
+
+<p>DEEP-SEA (EuroHPC-JU) - P. I.: P. Radojkovic, BSC. 01/04/2021-31/03/2024. 1.1M€. Researcher. Within the scope of Work Package 3, Sergio participates in the decision-making process of the mechanisms to tackle dynamic resources. https://doi.org/10.3030/955606</p>
