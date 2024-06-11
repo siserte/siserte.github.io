@@ -21,18 +21,13 @@ author_profile: true
 <h2>Current Projects</h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
-        {% assign curr_date = "now" | date: "%s" %}
-        {% if post.my-end-date %}
-            {% assign end_date = post.my-end-date | date: "%s" %}
-        {% else %}
-            {% assign end_date = post.date | date: "%s" %}
-        {% endif %}
-        {% if end_date > curr_date %}
-            {% include archive-single-project.html %}
-        {% endif %}
+    {% assign curr_date = "now" | date: "%s" %}
+    {% assign end_date = post.date | date: "%s" %}
+    {% if end_date > curr_date %}
+    {% include archive-single-project.html %}
+    {% endif %}
     {% endif %}
 {% endfor %}
-
 <h2> Former Projects </h2>
 
 <h3>PhD Dissertation<h4 style="color:gray;">High-Throughput Computation through Efficient Resource Management</h4></h3>
@@ -51,11 +46,14 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
-    {% assign curr_date = "now" | date: "%s" %}
-    {% assign end_date = post.date | date: "%s" %}
-    {% if end_date <= curr_date %}
-    {% include archive-single-project.html %}
-    {% endif %}
+        {% assign curr_date = "now" | date: "%s" %}
+        {% assign end_date = post.date | date: "%s" %}
+        {% if post.my-end-date %}
+            {% assign end_date = post.my-end-date | date: "%s" %}
+        {% endif %}
+        {% if end_date <= curr_date %}
+            {% include archive-single-project.html %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 
