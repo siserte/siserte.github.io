@@ -39,9 +39,7 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
-    {% if post.date2 | date: "%s" < 'now' | date: "%s" %}
     {% include archive-single-project.html %}
-    {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -66,15 +64,3 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 
 <h3 style="color:gray;">ACEI - Adjusting the Energy Consumption in Computer Facilities</h3>
 <p>This project consisted in the development of a simulator to assess energy saving strategies and policies in HPC workloads. The real system Energy Saving Cluster (ESC) based on Sun Grid Engine (SGE) was modeled in order to simulate its behavior, taking into account: the different features of the components in the cluster, the scheduling and the energy saving policies and generating statistics and charts with the results. The simulator was written in Python and had a user web interface for its management.</p>
-
-
-
-
-
-<p>DEEP-SEA (EuroHPC-JU) - P. I.: P. Radojkovic, BSC. 01/04/2021-31/03/2024. 1.1M€. Researcher. Within the scope of Work Package 3, Sergio participates in the decision-making process of the mechanisms to tackle dynamic resources. https://doi.org/10.3030/955606</p>
-<p>APPWIND (Spanish Research Agency) - P. I.: S. Chiva, UJI. 01/11/2021-31/12/2024. 274K€. Work Package Leader. Sergio led Work Package 2, which aimed to create a workflow that combined CFD simulations and AI predictions. Sergio was also responsible for constructing and curating the dataset to train the predictive model.</p>
-<p>APOSTD/2020 (European Social Funds) - P. I.: S. Iserte, UJI. 01/09/2020-10/12/2022. 103K€. Principal Investigator. Sergio initiated the AI-CFD research line in the group. He was the precursor of devising a  new set of data-driven techniques to accelerate long transient simulations.</p>
-<p>APOTIP/2016/A/033 (Spanish Ministry of Science) - P. I.: E. S. Quintana-Ortí, UJI. 01/09/2016-31/10/2017. 13K€. Researcher. Sergio implemented a solution that automated the setup and deployment of Xeon Phi coprocessors in heterogeneous clusters.</p>
-<p>FP7 318793 (European Comission) - P. I.: E. S. Quintana-Ortí , UJI. 01/10/2015-30/9/2018. 396K€. Researcher. Sergio designed, developed, and evaluated the MPI malleability framework DMR for HPC clusters.</p>
-<p>H2020-FETHPC-2014 671602 (European Comission) - P. I.: E. S. Quintana-Ortí, UJI. 01/11/2012-31/10/2015. 270K€. Researcher. Sergio designed and developed an extension for Slurm to support remote GPU virtualization with the rCUDA technology.</p>
-<p>INNPACTO IPT-2011-1232-43 (Spanish Ministry of Science) - P. I.: C. Cebrián, Tissat. 01/07/2011-31/12/2013. 138K€. Researcher. Sergio designed and developed a migration mechanism for virtual machines in OpenStack cloud computing infrastructure.</p>
