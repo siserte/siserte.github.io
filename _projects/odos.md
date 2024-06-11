@@ -9,7 +9,7 @@ date: "2026-09-30"
 grant: "1.2M€"
 role: "Leader"
 wp: "Work Package 2"
-description: "NVIDIA-BSC released the ODOS framework, incorporating it into the Unified Communication X (UCX) consortium, a collaboration between industry, laboratories, and academia to create an open-source, production-grade communication framework for data-centric and high-performance applications"
+description: "Development of ODOS, a framework for enabling communication and computation offloading to DPUs"
 url: "https://github.com/openucx/ODOS"
 doi: ""
 ---

@@ -8,15 +8,17 @@ author_profile: true
 {% include base_path %}
 
 <h2>Research Lines</h2>
-<h3 style="color:gray;">Dynamic Resources in HPC Environments</h3>
-<p>Leveraging the DMR malleability framework, new methods and techniques for managing dynamic resources are being investigated and developed.</p>
+<p><strong style="color: #808080;">Dynamic Management of Resources in HPC Environments</strong>
+Dynamic Resource Management allows for dynamic changes of the resources assigned to a job during its execution. 
+This discipline has gained considerable interest over the last years as it could provide many benefits to providers of HPC systems and their users, such as improving energy efficiency and throughput.
 
-<h3 style="color:gray;">Offloading Programming with the OpenMP API</h3>
-<p>Data Processing Units (DPUs) are a new class of programmable processor system on a chip (SoC) that combine industry-standard, high-performance, software-programmable, and processing elements (such as CPUs and GPUs) tightly coupled to the other SoC components.</p>
-<p>The OpenMP programming model is enabled to support kernels offloading to DPU likewise it is done for GPU, since OpenMP 4.0, with the offload feature through DOCA. Thus, users will be able to offload computation to GPU and/or DPU indistinctively using the standard OpenMP syntaxis.</p>
+This research line is in collaborations with Technical University of Munich (TUM), Forschungszentrum Jülich (FZJ), Université Grenoble Alpes (UGA), Universidad de Zaragoza (Unizar), Universtat Jaume I (UJI), and Université Toulouse III - Paul Sabatier (TLSE3).
+</p>
 
-<h3 style="color:gray;">HPC Workload Characterization</h3>
-<p>In this collaboration with NERSC @ LBNL, we are studying the behavior of users and jobs in Cori supercomputer.  In this regard, we are analyzing data from resource requests and performance metrics.</p>
+<p><strong style="color: #808080;">In-Network Computation and Communication Offloading</strong>
+Extending the standard de facto parallel programming model OpenMP with DPU offloading capabilities (computation and communication) fully integrated in the paradigm and using the original OpenMP syntax. 
+This research line has garnered interest from DPU early adopters such as Georgia Tech, Texas Tech, and Sandia National Laboratory.
+</p>
 
 <h2>Current Projects</h2>
 {% for post in site.projects reversed %}
@@ -41,6 +43,8 @@ author_profile: true
             {% include archive-single-project.html %} 
         {% endif %}
 {% endfor %}
+
+<hr>
 
 <p><strong style="color: #808080;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
 Scientific applications run on supercomputers where thousands of nodes are shared among users. 
