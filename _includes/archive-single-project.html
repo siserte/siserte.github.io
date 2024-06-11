@@ -3,9 +3,9 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <p>
-      <strong>{{ post.title }}</strong> 
+      <h3 style="color:gray;">{{ post.title }}</h3> 
       {% if post.funding %}
-      ({{ post.funding }}) 
+      ({{ post.funding }})
       {% endif %}
       , PI: {{ post.pi }}, {{ post.pi-inst }}. 
       {{ post.start-date | date: "%Y/%m/%d" }}-{{ post.date | date: "%Y/%m/%d" }}. 
