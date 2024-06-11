@@ -4,18 +4,18 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <p>
       <strong>{{ post.title }}</strong> 
-      {% if post.funding %}
+      { % if post.funding % }
       ({{ post.funding }}) 
-      { % endif %}
+      { % endif % }
       - PI: {{ post.pi }}, {{ post.pi-inst }}. 
       {{ post.start-date }} - {{ post.end-date }}. 
-      {% if post.wp %}
+      { % if post.wp % }
       {{ post.wp }} 
-      { % endif %}
+      { % endif % }
       {{ post.role }}: {{ post.description }}. 
-      {% if post.doi %}
+      { % if post.doi % }
       <a href="https://{{ post.doi }}"> {{ post.doi }}</a>
-      { % endif %}
+      { % endif % }
     </p>
   </article>
 </div>
