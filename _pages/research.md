@@ -36,10 +36,13 @@ The relevance of the DMR malleability solution is such that it has been incorpor
     since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
     Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
 
+{% assign date1 = site.date1 | date: "%s" %}
+
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
-    {% if post.date < site.date %}
+    {% assign date2 = page.date2 | date: "%s" %}
+    {% if post.date2 < site1.date %}
     {% include archive-single-project.html %}
     {% endif %}
     {% endif %}
