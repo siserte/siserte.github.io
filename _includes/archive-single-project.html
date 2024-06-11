@@ -8,7 +8,7 @@
       ({{ post.funding }}) 
       {% endif %}
       - PI: {{ post.pi }}, {{ post.pi-inst }}. 
-      {{ post.date }} - {{ post.end-date }}. 
+      {{ page.date | date: "%Y-%M-%D" }} - {{ post.end-date }}. 
       {% if post.wp %}
       {{ post.wp }} 
       {% endif %}
