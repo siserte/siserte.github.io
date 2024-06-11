@@ -1,0 +1,15 @@
+---
+title: "Collaboration Agreement"
+type: "contract"
+funding: "Mellanox Inc."
+pi: "E. S. Quintana-Ortí"
+pi-inst: "UJI"
+start-date: "2012-01-01"
+date: "2013-12-31"
+grant: "$134K"
+role: "Researcher"
+wp: ""
+description: "rCUDA technology development (www.hpca.uji.es/rCUDA)"
+url: ""
+doi: ""
+---

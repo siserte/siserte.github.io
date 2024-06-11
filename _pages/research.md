@@ -20,7 +20,6 @@ author_profile: true
 
 <h2>Current Projects</h2>
 {% for post in site.projects reversed %}
-    {% if post.type == "research" %}
         {% assign curr_date = "now" | date: "%s" %}
         {% assign end_date = post.date | date: "%s" %}
         {% if post.my-end-date %}
@@ -29,12 +28,10 @@ author_profile: true
         {% if end_date > curr_date %}
             {% include archive-single-project.html %} 
         {% endif %}
-    {% endif %}
 {% endfor %}
 
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
-    {% if post.type == "research" %}
         {% assign curr_date = "now" | date: "%s" %}
         {% assign end_date = post.date | date: "%s" %}
         {% if post.my-end-date %}
@@ -43,7 +40,6 @@ author_profile: true
         {% if end_date <= curr_date %}
             {% include archive-single-project.html %} 
         {% endif %}
-    {% endif %}
 {% endfor %}
 
 <p><strong style="color: #808080;">REALCLOUD - Real Data Center Cloud Services and Environment</strong>

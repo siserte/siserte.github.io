@@ -1,0 +1,15 @@
+---
+title: "Compute in Network: Offloading Computation to the Network"
+type: "contract"
+funding: "Nvidia"
+pi: "A. J. Peña"
+pi-inst: "BSC"
+start-date: "2021-10-01"
+date: "2026-09-30"
+grant: "1.2M€"
+role: "Leader"
+wp: "Work Package 2"
+description: "NVIDIA-BSC released the ODOS framework, incorporating it into the Unified Communication X (UCX) consortium, a collaboration between industry, laboratories, and academia to create an open-source, production-grade communication framework for data-centric and high-performance applications"
+url: ""
+doi: ""
+---

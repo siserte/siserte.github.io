@@ -1,0 +1,16 @@
+---
+title: "Collaboration Agreement"
+type: "contract"
+funding: "Avanqua-Oceanogràfic S.L."
+pi: "R. Martínez-Cuenca"
+pi-inst: "UJI"
+start-date: "2021-12-17"
+date: "2024-12-17"
+grant: "90KM€"
+role: "Researcher"
+wp: ""
+description: "AI-assisted CFD simulations of the facilities to improve air quality within fish tanks in an aquarium"
+url: "https://www.catedradelagua.uji.es/jaume-luis-presenta-los-resultados-del-proyecto-aquavent-en-la-2nd-sfmc "
+doi: ""
+my-end-date: "2023-06-30"
+---
