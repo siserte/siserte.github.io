@@ -11,7 +11,7 @@ role: "Leader"
 wp: "Work Package 2"
 description: "Sergio designed a workflow that combined CFD simulations and AI predictions. Sergio was also responsible for constructing and curating the dataset to train the predictive model"
 my-start-date: ""
-my-end-date: ""
+my-end-date: "2023-12-31"
 url: ""
 doi: ""
 ---
