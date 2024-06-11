@@ -33,20 +33,6 @@ author_profile: true
 {% endfor %}
 
 <h2> Former Projects </h2>
-<p><strong>PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
-Scientific applications run on supercomputers where thousands of nodes are shared among users. 
-    When those applications start, their resources remain allocated until the job ends. 
-    We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.
-The Dynamic Management of Resource (DMR) framework is conceived to facilitate the programmability of malleable applications automating resource reallocation, process handling, and data distribution. DMR is based on the Message Passing Interface (MPI) programming model, the standard de facto for developing HPC distributed applications. DMR adjusts the process number of the jobs depending on the cluster status in terms of resource availability and quantity of pending jobs.
-Performance analyses have reported a makespan reduction of 4x, when combined with moldability, compared to traditional rigid workloads. DMR has also been used in GPU-capable workloads improving their energy efficiency up to 2.5x.
-The relevance of the DMR malleability solution is such that it has been incorporated for the European projects: “The European Pilot” EuroHPC-JU, DEEP-SEA, and TimeX.</p>
-
-<p><strong>MSc Thesis - A Remote GPU Manager for HPC Clusters</strong>
-rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. 
-    In this project I have been in charge of the integration of both technologies, 
-    since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
-    Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
-
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
         {% assign curr_date = "now" | date: "%s" %}
@@ -60,11 +46,25 @@ rCUDA is a virtualization solution which allows to share GPUs among the nodes in
     {% endif %}
 {% endfor %}
 
-<p><strong>REALCLOUD - Real Data Center Cloud Services and Environment</strong>
+<p><strong style="color: #808080;">REALCLOUD - Real Data Center Cloud Services and Environment</strong>
 This project was carried out by several entities. We were responsible for developing a middleware what was able to consolidate the system, making decisions depending on the TI data gathered in real-time. So that, it would migrate virtual machines, turn on and shut down nodes in order to boost the performance and reduce, as much as possible the carbon footprint.</p>
 
-<p><strong>MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
+<p><strong style="color: #808080;">MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
 The collaboration of our research group in this project was focus on the theoretical study of the power consumption in the cluster of the FCSCL (SuperComputing Foundation of Castilla y León (Spain)).</p>
 
-<p><strong>ACEI - Adjusting the Energy Consumption in Computer Facilities</strong>
+<p><strong style="color: #808080;">ACEI - Adjusting the Energy Consumption in Computer Facilities</strong>
 This project consisted in the development of a simulator to assess energy saving strategies and policies in HPC workloads. The real system Energy Saving Cluster (ESC) based on Sun Grid Engine (SGE) was modeled in order to simulate its behavior, taking into account: the different features of the components in the cluster, the scheduling and the energy saving policies and generating statistics and charts with the results. The simulator was written in Python and had a user web interface for its management.</p>
+
+<p><strong style="color: #808080;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
+Scientific applications run on supercomputers where thousands of nodes are shared among users. 
+    When those applications start, their resources remain allocated until the job ends. 
+    We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.
+The Dynamic Management of Resource (DMR) framework is conceived to facilitate the programmability of malleable applications automating resource reallocation, process handling, and data distribution. DMR is based on the Message Passing Interface (MPI) programming model, the standard de facto for developing HPC distributed applications. DMR adjusts the process number of the jobs depending on the cluster status in terms of resource availability and quantity of pending jobs.
+Performance analyses have reported a makespan reduction of 4x, when combined with moldability, compared to traditional rigid workloads. DMR has also been used in GPU-capable workloads improving their energy efficiency up to 2.5x.
+The relevance of the DMR malleability solution is such that it has been incorporated for the European projects: “The European Pilot” EuroHPC-JU, DEEP-SEA, and TimeX.</p>
+
+<p><strong style="color: #808080;">MSc Thesis - A Remote GPU Manager for HPC Clusters</strong>
+rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. 
+    In this project I have been in charge of the integration of both technologies, 
+    since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
+    Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
