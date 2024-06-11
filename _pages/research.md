@@ -39,7 +39,7 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
-    {% if post.date2 | date: "%s" < site.date1 | date: "%s" %}
+    {% if post.date2 | date: "%s" < 'now' | date: "%s" %}
     {% include archive-single-project.html %}
     {% endif %}
     {% endif %}
