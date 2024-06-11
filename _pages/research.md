@@ -23,14 +23,17 @@ author_profile: true
     {% if post.type == "research" %}
         {% assign curr_date = "now" | date: "%s" %}
         {% assign end_date = post.date | date: "%s" %}
+        {% if post.my-end-date %}
+            {% assign end_date = post.my-end-date | date: "%s" %}
+        {% endif %}
         {% if end_date > curr_date %}
-            {% include archive-single-project.html %}
+            {% include archive-single-project.html %} 
         {% endif %}
     {% endif %}
 {% endfor %}
 
 <h2> Former Projects </h2>
-<p><strong>PhD Thesis - High-Throughput Computation through Efficient Resource Management:</strong>
+<p><strong>PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
 Scientific applications run on supercomputers where thousands of nodes are shared among users. 
     When those applications start, their resources remain allocated until the job ends. 
     We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.
@@ -38,7 +41,7 @@ The Dynamic Management of Resource (DMR) framework is conceived to facilitate th
 Performance analyses have reported a makespan reduction of 4x, when combined with moldability, compared to traditional rigid workloads. DMR has also been used in GPU-capable workloads improving their energy efficiency up to 2.5x.
 The relevance of the DMR malleability solution is such that it has been incorporated for the European projects: “The European Pilot” EuroHPC-JU, DEEP-SEA, and TimeX.</p>
 
-<p><strong>MSc Thesis - A Remote GPU Manager for HPC Clusters:</strong>
+<p><strong>MSc Thesis - A Remote GPU Manager for HPC Clusters</strong>
 rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. 
     In this project I have been in charge of the integration of both technologies, 
     since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
