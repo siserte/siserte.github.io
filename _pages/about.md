@@ -26,11 +26,11 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 Machine Learning and Artificial Intelligence in High-Performance Computing held in conjuction with PPAM 2024</a></p>
 <p><strong>[Oct. 7-9 2024] General Co-chair @ MNHack24:</strong> <a href="www.bsc.es/MNHack_24">6th Marenostrum Hackathon at BSC</a></p>
 
+{% comment %}
 <h2 style="color:gray;">Participation in recent activities:</h2>
+
 <p><strong>[May 15 2024] Panel @ ISC24:</strong> "System Software in Support of Converged HPC Systems"</p>
 <p><strong>[May 15 2024] BoF @ ISC24:</strong> "Artificial Intelligence and Machine Learning for HPC Workload Analysis"</p>
-
-{% comment %}
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> "Offloading Computation and Communication to BlueField DPUs using OpenMP and MPI"</p>
 <p><strong>[Apr. 17 2024] Talk @ JLESC24:</strong> "Efficient Cluster Resource Utilization in HPC Applications"</p>
 <p><strong>[Apr. 16 2024] Poster @ JLESC24:</strong> "OpenMP DPU Offloading Support (ODOS)"</p>

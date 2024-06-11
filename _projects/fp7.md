@@ -1,5 +1,5 @@
 ---
-title: "FP7 318793"
+title: "FP7 318793 - EXA2GREEN: Energy-Aware Sustainable Computing on Future Technology - Paving the Road to Exascale Computing"
 type: "research"
 funding: "European Commission"
 pi: "E. S. Quintana-Ortí"

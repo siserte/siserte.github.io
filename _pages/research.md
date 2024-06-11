@@ -42,15 +42,6 @@ author_profile: true
         {% endif %}
 {% endfor %}
 
-<p><strong style="color: #808080;">REALCLOUD - Real Data Center Cloud Services and Environment</strong>
-This project was carried out by several entities. We were responsible for developing a middleware what was able to consolidate the system, making decisions depending on the TI data gathered in real-time. So that, it would migrate virtual machines, turn on and shut down nodes in order to boost the performance and reduce, as much as possible the carbon footprint.</p>
-
-<p><strong style="color: #808080;">MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
-The collaboration of our research group in this project was focus on the theoretical study of the power consumption in the cluster of the FCSCL (SuperComputing Foundation of Castilla y León (Spain)).</p>
-
-<p><strong style="color: #808080;">ACEI - Adjusting the Energy Consumption in Computer Facilities</strong>
-This project consisted in the development of a simulator to assess energy saving strategies and policies in HPC workloads. The real system Energy Saving Cluster (ESC) based on Sun Grid Engine (SGE) was modeled in order to simulate its behavior, taking into account: the different features of the components in the cluster, the scheduling and the energy saving policies and generating statistics and charts with the results. The simulator was written in Python and had a user web interface for its management.</p>
-
 <p><strong style="color: #808080;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
 Scientific applications run on supercomputers where thousands of nodes are shared among users. 
     When those applications start, their resources remain allocated until the job ends. 
@@ -64,3 +55,6 @@ rCUDA is a virtualization solution which allows to share GPUs among the nodes in
     In this project I have been in charge of the integration of both technologies, 
     since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
     Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
+
+<p><strong style="color: #808080;">Degree's Thesis - Adjusting the Energy Consumption in Computer Facilities</strong>
+This project consisted in the development of a simulator to assess energy saving strategies and policies in HPC workloads. The real system Energy Saving Cluster (ESC) based on Sun Grid Engine (SGE) was modeled in order to simulate its behavior, taking into account: the different features of the components in the cluster, the scheduling and the energy saving policies and generating statistics and charts with the results. The simulator was written in Python and had a user web interface for its management.</p>
