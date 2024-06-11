@@ -10,8 +10,6 @@ grant: "50M€"
 role: "Researcher"
 wp: "Work Package 2"
 description: "Sergio participates in the design of the resource management software stack of a RISC-V-based cluster composed of chips designed by BSC"
-my-start-date: ""
-my-end-date: ""
 url: ""
 doi: ""
 ---
