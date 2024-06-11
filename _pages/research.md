@@ -20,6 +20,8 @@ Extending the standard de facto parallel programming model OpenMP with DPU offlo
 This research line has garnered interest from DPU early adopters such as Georgia Tech, Texas Tech, and Sandia National Laboratory.
 </p>
 
+<hr>
+
 <h2>Current Projects</h2>
 {% for post in site.projects reversed %}
         {% assign curr_date = "now" | date: "%s" %}
@@ -31,6 +33,8 @@ This research line has garnered interest from DPU early adopters such as Georgia
             {% include archive-single-project.html %} 
         {% endif %}
 {% endfor %}
+
+<hr> 
 
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
@@ -44,6 +48,8 @@ This research line has garnered interest from DPU early adopters such as Georgia
         {% endif %}
 {% endfor %}
 
+<hr>
+<hr>
 <hr>
 
 <p><strong style="color: #808080;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
