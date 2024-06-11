@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Current Research Lines</h2>
+<h2>Research Lines</h2>
 <h3 style="color:gray;">Dynamic Resources in HPC Environments</h3>
 <p>Leveraging the DMR malleability framework, new methods and techniques for managing dynamic resources are being investigated and developed.</p>
 
@@ -19,9 +19,20 @@ author_profile: true
 <p>In this collaboration with NERSC @ LBNL, we are studying the behavior of users and jobs in Cori supercomputer.  In this regard, we are analyzing data from resource requests and performance metrics.</p>
 
 <h2>Current Projects</h2>
+{% for post in site.projects reversed %}
+    {% if post.type == "research" %}
+    {% assign curr_date = "now" | date: "%s" %}
+    {% assign end_date = post.date | date: "%s" %}
+    {% if end_date > curr_date %}
+    {% include archive-single-project.html %}
+    {% endif %}
+    {% endif %}
+{% endfor %}
 
-<h2>PhD Dissertation</h2>
-<h3 style="color:gray;">High-Throughput Computation through Efficient Resource Management</h3>
+<h2> Former Projects </h2>
+
+<h3>PhD Dissertation</h3>
+<h4 style="color:gray;">High-Throughput Computation through Efficient Resource Management</h4>
 <p>Scientific applications run on supercomputers where thousands of nodes are shared among users. 
     When those applications start, their resources remain allocated until the job ends. 
     We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.</p>
@@ -29,36 +40,22 @@ author_profile: true
 Performance analyses have reported a makespan reduction of <strong>4x</strong>, when combined with moldability, compared to traditional rigid workloads. DMR has also been used in GPU-capable workloads improving their energy efficiency up to <strong>2.5x</strong>.
 The relevance of the DMR malleability solution is such that it has been incorporated for the European projects: “The European Pilot” EuroHPC-JU, DEEP-SEA, and TimeX.
 
-<h2>Master Thesis</h2>
-<h3 style="color:gray;">A Remote GPU Manager for HPC Clusters</h3>
+<h3>Master Thesis</h3>
+<h4 style="color:gray;">A Remote GPU Manager for HPC Clusters</h4>
 <p>rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. 
     In this project I have been in charge of the integration of both technologies, 
     since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
     Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
 
-<h2> Former Projects </h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
     {% assign curr_date = "now" | date: "%s" %}
     {% assign end_date = post.date | date: "%s" %}
-    {% if end_date < curr_date %}
+    {% if end_date <= curr_date %}
     {% include archive-single-project.html %}
     {% endif %}
     {% endif %}
 {% endfor %}
-
-<h2>Former Projects</h2>
-<h3 style="color:gray;">Machine Learning for Fluid Mechanics</h3>
-<p>Study of machine learning techniques for multi-phase fluids dynamics predictions. During this project, there have been collaborations with UPV (DSCI and DISCA) and BSC (CASE).</p>
-
-<h3 style="color:gray;">Dynamic Management of Resources</h3>
-<p>MPI applications can change the number of processes to fit better any specific computational stage or upon request from the manager. We have developed a communication layer between the resource manager and the runtime capable of reassigning resources to the jobs depending on the cluster status.</p>
-
-<h3 style="color:gray;">GPU Cloudification</h3>
-<p>Management of cloudified accelerators in clouds infrastructures.</p>
-
-<h3 style="color:gray;">rCUDA - remote CUDA</h3>
-<p>rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. In this project I have been in charge of the integration of both technologies, since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
 
 <h3 style="color:gray;">REALCLOUD - Real Data Center Cloud Services and Environment</h3>
 <p>This project was carried out by several entities. We were responsible for developing a middleware what was able to consolidate the system, making decisions depending on the TI data gathered in real-time. So that, it would migrate virtual machines, turn on and shut down nodes in order to boost the performance and reduce, as much as possible the carbon footprint.</p>
