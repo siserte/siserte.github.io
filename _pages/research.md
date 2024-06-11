@@ -30,7 +30,7 @@ author_profile: true
 {% endfor %}
 
 <h2> Former Projects </h2>
-<p><strong style="color:gray;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
+<strong>PhD Thesis - High-Throughput Computation through Efficient Resource Management:</strong>
 <p>Scientific applications run on supercomputers where thousands of nodes are shared among users. 
     When those applications start, their resources remain allocated until the job ends. 
     We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.</p>
@@ -38,7 +38,7 @@ author_profile: true
 Performance analyses have reported a makespan reduction of <strong>4x</strong>, when combined with moldability, compared to traditional rigid workloads. DMR has also been used in GPU-capable workloads improving their energy efficiency up to <strong>2.5x</strong>.
 The relevance of the DMR malleability solution is such that it has been incorporated for the European projects: “The European Pilot” EuroHPC-JU, DEEP-SEA, and TimeX.
 
-<p><strong style="color:gray;">MSc Thesis - A Remote GPU Manager for HPC Clusters: </strong>
+<strong>MSc Thesis - A Remote GPU Manager for HPC Clusters:</strong>
 <p>rCUDA is a virtualization solution which allows to share GPUs among the nodes in a cluster. SLURM is a workload manager able to schedule jobs and manage resources. 
     In this project I have been in charge of the integration of both technologies, 
     since RCUDA have not got the feature of managing workloads and SLURM does not know how to share resources such as GPUs. 
@@ -51,17 +51,18 @@ The relevance of the DMR malleability solution is such that it has been incorpor
             {% assign end_date = post.my-end-date | date: "%s" %}
         {% else %}
             {% assign end_date = post.date | date: "%s" %}
-        {% endif %}
+
         {% if end_date <= curr_date %}
             {% include archive-single-project.html %}
+                {% endif %}
         {% endif %}
     {% endif %}
 {% endfor %}
 
-<p><strong style="color:gray;">REALCLOUD - Real Data Center Cloud Services and Environment</strong>
+<p><strong>REALCLOUD - Real Data Center Cloud Services and Environment</strong>
 This project was carried out by several entities. We were responsible for developing a middleware what was able to consolidate the system, making decisions depending on the TI data gathered in real-time. So that, it would migrate virtual machines, turn on and shut down nodes in order to boost the performance and reduce, as much as possible the carbon footprint.</p>
 
-<p><strong style="color:gray;">MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
+<p><strong>MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
 The collaboration of our research group in this project was focus on the theoretical study of the power consumption in the cluster of the FCSCL (SuperComputing Foundation of Castilla y León (Spain)).</p>
 
 <p><strong>ACEI - Adjusting the Energy Consumption in Computer Facilities</strong>
