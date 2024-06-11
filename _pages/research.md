@@ -38,6 +38,7 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
+    <h3> post.title </h3>
     {% if post.type == "research" %}
     {% include archive-single-project.html %}
     {% endif %}
