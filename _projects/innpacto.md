@@ -1,0 +1,17 @@
+---
+title: "INNPACTO IPT-2011-1232-43"
+type: "research"
+funding: "Spanish Ministry of Science"
+pi: "C. Cebrián"
+pi-inst: "Tissat"
+start-date: "2011-07-01"
+end-date: "2013-12-31"
+grant: "138K€"
+role: "Researcher"
+wp: ""
+description: "Sergio designed and developed a migration mechanism for virtual machines in OpenStack cloud computing infrastructure"
+my-start-date: ""
+my-end-date: ""
+url: ""
+doi: ""
+---

@@ -1,0 +1,17 @@
+---
+title: "C15.I05.P01.SI03"
+type: "research"
+funding: "Spanish Ministry of Science"
+pi: "M. Valero"
+pi-inst: "BSC"
+start-date: "2022-12-01"
+end-date: "2025-12-31"
+grant: "50M€"
+role: "Researcher"
+wp: "Work Package 2"
+description: "Sergio participates in the design of the resource management software stack of a RISC-V-based cluster composed of chips designed by BSC"
+my-start-date: ""
+my-end-date: ""
+url: ""
+doi: ""
+---

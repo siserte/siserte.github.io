@@ -1,0 +1,17 @@
+---
+title: "APOSTD/2020"
+type: "research"
+funding: "European Social Funds and Valencian Region Government"
+pi: "S. Iserte"
+pi-inst: "UJI"
+start-date: "2020-09-01"
+end-date: "2022-12-10"
+grant: "103K€"
+role: "Principal Investigator"
+wp: ""
+description: "Sergio initiated the AI-CFD research line in the group. He was the precursor of devising a  new set of data-driven techniques to accelerate long transient simulations"
+my-start-date: ""
+my-end-date: ""
+url: ""
+doi: ""
+---

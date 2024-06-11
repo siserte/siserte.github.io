@@ -1,0 +1,17 @@
+---
+title: "APOTIP/2016/A/033"
+type: "research"
+funding: "Spanish Ministry of Science"
+pi: "E. S. Quintana-Ortí"
+pi-inst: "UJI"
+start-date: "2016-09-01"
+end-date: "2017-10-31"
+grant: "13K€"
+role: "Researcher"
+wp: ""
+description: "Sergio implemented a solution that automated the setup and deployment of Xeon Phi coprocessors in heterogeneous clusters"
+my-start-date: ""
+my-end-date: ""
+url: ""
+doi: ""
+---
