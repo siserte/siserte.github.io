@@ -47,7 +47,6 @@ The relevance of the DMR malleability solution is such that it has been incorpor
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
         {% assign curr_date = "now" | date: "%s" %}
-        {% assign end_date = post.date | date: "%s" %}
         {% if post.my-end-date %}
             {% assign end_date = post.my-end-date | date: "%s" %}
         {% else %}
@@ -65,5 +64,5 @@ This project was carried out by several entities. We were responsible for develo
 <p><strong style="color:gray;">MONICA - Monitoring and control system with intelligent energy efficiency management for ICT resources in ultradense data centers oriented HPC and Cloud Computing</strong>
 The collaboration of our research group in this project was focus on the theoretical study of the power consumption in the cluster of the FCSCL (SuperComputing Foundation of Castilla y León (Spain)).</p>
 
-<p><strong style="color:gray;">ACEI - Adjusting the Energy Consumption in Computer Facilities</h3>
+<p><strong>ACEI - Adjusting the Energy Consumption in Computer Facilities</strong>
 This project consisted in the development of a simulator to assess energy saving strategies and policies in HPC workloads. The real system Energy Saving Cluster (ESC) based on Sun Grid Engine (SGE) was modeled in order to simulate its behavior, taking into account: the different features of the components in the cluster, the scheduling and the energy saving policies and generating statistics and charts with the results. The simulator was written in Python and had a user web interface for its management.</p>
