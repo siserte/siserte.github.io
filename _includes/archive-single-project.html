@@ -8,7 +8,7 @@
       ({{ post.funding }}) 
       {% endif %}
       , PI: {{ post.pi }}, {{ post.pi-inst }}. 
-      {{ post.date | date: "%Y/%m/%d" }}-{{ post.end-date | date: "%Y/%m/%d" }}. 
+      {{ post.start-date | date: "%Y/%m/%d" }}-{{ post.date | date: "%Y/%m/%d" }}. 
       {% if post.wp %}
       {{ post.wp }} 
       {% endif %}
