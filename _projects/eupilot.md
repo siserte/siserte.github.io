@@ -10,8 +10,5 @@ grant: "3.3M€"
 role: "Researcher"
 wp: "Work Package 7"
 description: "Sergio is expected to deploy and evaluate DMR in a RISC-V-based cluster composed of European technologies"
-my-start-date: ""
-my-end-date: ""
-url: ""
 doi: "doi.org/10.3030/101034126"
 ---
