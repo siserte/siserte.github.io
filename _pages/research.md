@@ -37,12 +37,13 @@ The relevance of the DMR malleability solution is such that it has been incorpor
     Nowadays, the RCUDA project offers this integration by applying a patch to SLURM.</p>
 
 {% assign date1 = site.date1 | date: "%s" %}
+<p> {% date1 %} </p>
 <h2> Former Projects </h2>
 {% for post in site.projects reversed %}
     {% if post.type == "research" %}
     {% assign date2 = post.date2 | date: "%s" %}
-    <p>site.date1 | date: "%s"</p>
-    <p>post.date2 | date: "%s"</p>
+    <p> {% site.date1 | date: "%s" %} </p>
+    <p> {% post.date2 | date: "%s" %} </p>
     {% if post.date2 | date: "%s" < site.date1 | date: "%s" %}
     {% include archive-single-project.html %}
     {% endif %}
