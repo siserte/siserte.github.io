@@ -3,7 +3,7 @@ title: "Malleability in Modern HPC Systems: Current Experiences, Challenges, and
 collection: publications
 permalink: /publication/2024-06-01-Malleability-in-Modern-HPC-Systems-Current-Experiences-Challenges-and-Future-Opportunities
 type: "journal"
-excerpt: 'Conference Name: IEEE Transactions on Parallel and Distributed Systems'
+excerpt: 'Conference Name: {IEEE} Transactions on Parallel and Distributed Systems'
 date: 2024-06-01
 venue: '<em>IEEE Transactions on Parallel and Distributed Systems</em>, pp. 1--14'
 paperurl: 'https://doi.org/10.1109/TPDS.2024.3406764'

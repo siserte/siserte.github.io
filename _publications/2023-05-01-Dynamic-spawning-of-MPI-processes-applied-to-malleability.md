@@ -3,7 +3,7 @@ title: "Dynamic spawning of MPI processes applied to malleability"
 collection: publications
 permalink: /publication/2023-05-01-Dynamic-spawning-of-MPI-processes-applied-to-malleability
 type: "journal"
-excerpt: 'ISBN: pending'
+excerpt: '{ISBN}: pending'
 date: 2023-05-01
 venue: '<em>International Journal of High Performance Computing Applications</em>(0), pp. 1--25'
 paperurl: 'https://doi.org/10.1177/10943420231176527'

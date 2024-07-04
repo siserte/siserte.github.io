@@ -3,7 +3,7 @@ title: "On the Use of Deep Learning and Computational Fluid Dynamics for the Est
 collection: publications
 permalink: /publication/2023-10-01-On-the-Use-of-Deep-Learning-and-Computational-Fluid-Dynamics-for-the-Estimation-of-Uniform-Momentum-Source-Components-of-Propellers
 type: "journal"
-excerpt: 'ISBN: pending'
+excerpt: '{ISBN}: pending'
 date: 2023-10-01
 venue: '<em>iScience</em>(26), pp. 1--14'
 paperurl: 'https://doi.org/10.1016/j.isci.2023.108297'
