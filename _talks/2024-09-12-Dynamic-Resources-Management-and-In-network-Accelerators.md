@@ -1,10 +1,10 @@
 ---
-title: "HPC &amp; AI: a Malleable Approach"
+title: "Dynamic Resources Management and In-network Accelerators"
 collection: talks
-permalink: /talks/2022-09-16-HPC-AI-a-Malleable-Approach
+permalink: /talks/2024-09-12-Dynamic-Resources-Management-and-In-network-Accelerators
 type: "seminar"
 location: "Politechnika Częstochowska, Poland"
-date: 2022-09-16
+date: 2024-09-12
 venue: 'Invited by prof.dr hab.inż. Roman Wyrzykowski'
 url: 'https://pcz.pl/en/'
 ---
