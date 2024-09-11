@@ -5,5 +5,5 @@ permalink: /talks/2024-09-10-Towards-the-Democratization-and-Standardization-of-
 type: "conference"
 location: "Ostrava, Czech Republic"
 date: 2024-09-10
-venue: '15th International Conference on Parallel Processing &amp; Applied Mathematics'
+venue: '15th International Conference on Parallel Processing &amp; Applied Mathematics (PPAM)'
 ---

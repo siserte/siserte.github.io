@@ -1,7 +1,7 @@
 ---
-title: "Dynamic Resources Management and In-network Accelerators"
+title: "Dynamic Resources Management and In-network Offloading"
 collection: talks
-permalink: /talks/2024-09-12-Dynamic-Resources-Management-and-In-network-Accelerators
+permalink: /talks/2024-09-12-Dynamic-Resources-Management-and-In-network-Offloading
 type: "seminar"
 location: "Politechnika Częstochowska, Poland"
 date: 2024-09-12
