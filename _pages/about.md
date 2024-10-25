@@ -18,7 +18,12 @@ He is also an instructor of High-performance Computing (HPC) courses at Open Uni
 <li>Dynamic processes and resources management</li>
 <li>HPC workload modeling</li>
 <li>In-network acceleration</li>
+<li>Applied artificial intelligence</li>
 </ul>
+
+<p>Sergio's academic and professional record has shown his independence and expertise. He has authored 17 journal papers with SJR rankings (seven Q1), demonstrating his ability to work autonomously without heavy reliance on thesis supervisors. Additionally, Sergio has actively participated in European and national research projects and industrial contracts, even taking on the responsibilities of a work package coordinator. He has made significant contributions to the academic community by peer-reviewing over 60 papers and ministry projects in Spain and Poland.</p> 
+
+<p>Sergio has served in several scientific committees in the most prestigious HPC conferences, including SC where he has been involved in student, infrastructure, inclusivity, and security committees. Furthermore, Sergio has supervised visiting students, engineer staff, final degree/master's projects, and  PhD students, highlighting his dedication to mentoring and academic development. Sergio is the lead guest editor of the special issue “HPC Heterogeneous Systems and Subsystems” in the Future Generation Computer System journal.</p>
 
 {% comment %}
 <h2 style="color:gray;">Participation in upcoming activities:</h2>
