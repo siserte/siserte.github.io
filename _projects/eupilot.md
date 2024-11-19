@@ -1,5 +1,5 @@
 ---
-title: "EUPILOT"
+title: "EUPilot"
 type: "research"
 funding: "EuroHPC-JU"
 pi: "C. Puchol"
@@ -9,6 +9,6 @@ date: "2025-05-31"
 grant: "3.3M€"
 role: "Researcher"
 wp: "Work Package 7"
-description: "Sergio is expected to deploy and evaluate DMR in a RISC-V-based cluster composed of European technologies"
+description: "Sergio deployed and evaluated DMR in a RISC-V-Vext-based cluster composed of European technologies"
 doi: "doi.org/10.3030/101034126"
 ---

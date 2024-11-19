@@ -1,5 +1,5 @@
 ---
-title: "C15.I05.P01.SI03"
+title: "Barcelona Zettascale Lab (C15.I05.P01.SI03)"
 type: "research"
 funding: "Spanish Ministry of Science"
 pi: "M. Valero"
