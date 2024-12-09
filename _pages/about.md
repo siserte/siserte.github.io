@@ -58,3 +58,7 @@ News
 {% endcomment %}
 
 <a class="twitter-timeline" href="https://twitter.com/siserte?ref_src=twsrc%5Etfw">Tweets by siserte</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Memberships
+======
+<img src="images/hipeac.png" alt="hipeac membership logo" width="100">

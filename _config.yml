@@ -41,7 +41,7 @@ author:
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=54953339400"
 
   # Repositories and software development
-  bitbucket        : #"siserte"
+  bitbucket        : "siserte"
   codepen          : # Username
   dribbble         : # Username
   github           : "siserte"
@@ -49,7 +49,7 @@ author:
   stackoverflow    : "4286662"
 
   # Social media
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"siserte.bsky.social"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
