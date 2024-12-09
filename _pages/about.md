@@ -55,9 +55,9 @@ News
 News
 ======
 <p><strong>[Apr. 9 2024]</strong> New personal web page has been released!</p>
-{% endcomment %}
 
 <a class="twitter-timeline" href="https://twitter.com/siserte?ref_src=twsrc%5Etfw">Tweets by siserte</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endcomment %}
 
 Memberships
 ======
