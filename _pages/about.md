@@ -59,8 +59,9 @@ News
 <a class="twitter-timeline" href="https://twitter.com/siserte?ref_src=twsrc%5Etfw">Tweets by siserte</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {% endcomment %}
 
-Memberships
-======
-<img src="images/hipeac.png" alt="hipeac membership logo" width="300">
-<img src="images/sighpc.png" alt="sighpc membership logo" width="300">
-<img src="images/IEEE-CS.png" alt="ieee membership logo" width="300">
+<h2>Memberships</h2>
+<div class="memberships-container">
+  <img src="images/hipeac.png" alt="HiPEAC Membership Logo" class="membership-logo">
+  <img src="images/sighpc.png" alt="SIGHPC Membership Logo" class="membership-logo">
+  <img src="images/IEEE-CS.png" alt="IEEE-CS Membership Logo" class="membership-logo">
+</div>
