@@ -103,6 +103,12 @@
   margin-top: 20px;
 }
 
+.memberships-container a {
+  display: inline-block; /* Ensure each link behaves like a block */
+  text-decoration: none; /* Remove underline from links */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
 .membership-logo {
   max-width: 100%; /* Ensure images are responsive */
   height: auto;
@@ -111,6 +117,6 @@
   transition: transform 0.2s ease; /* Smooth hover effect */
 }
 
-.membership-logo:hover {
+.memberships-container a:hover .membership-logo {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }

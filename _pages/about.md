@@ -61,7 +61,13 @@ News
 
 <h2>Memberships</h2>
 <div class="memberships-container">
-  <img src="images/hipeac.png" alt="HiPEAC Membership Logo" class="membership-logo">
-  <img src="images/sighpc.png" alt="SIGHPC Membership Logo" class="membership-logo">
-  <img src="images/IEEE-CS.png" alt="IEEE-CS Membership Logo" class="membership-logo">
+  <a href="https://www.hipeac.net/" target="_blank" title="HiPEAC">
+    <img src="images/hipeac.png" alt="HiPEAC Membership Logo" class="membership-logo">
+  </a>
+  <a href="https://www.sighpc.org/" target="_blank" title="SIGHPC">
+    <img src="images/sighpc.png" alt="SIGHPC Membership Logo" class="membership-logo">
+  </a>
+  <a href="https://www.computer.org/" target="_blank" title="IEEE Computer Society">
+    <img src="images/IEEE-CS.png" alt="IEEE-CS Membership Logo" class="membership-logo">
+  </a>
 </div>
