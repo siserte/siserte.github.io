@@ -55,9 +55,8 @@
       <p>[{{ counter }}] {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
       {% assign counter = counter | plus: 1 %}
     {% elsif post.citation %}
-      <p>{{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
+      <p>[{{ counter }}] {{ post.citation }} </p>
+      {% assign counter = counter | plus: 1 %}
     {% endif %}
 
   </article>
