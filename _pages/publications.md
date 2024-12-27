@@ -33,6 +33,7 @@ author_profile: true
 </p>
 
 <h2> International Conferences </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "conference" %}
     {% include archive-single-pub.html %}
@@ -40,6 +41,7 @@ author_profile: true
 {% endfor %}
 
 <h2> International Workshops </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "workshop" %}
     {% include archive-single-pub.html %}
@@ -47,6 +49,7 @@ author_profile: true
 {% endfor %}
 
 <h2> Books and Chapters </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "book" %}
     {% include archive-single-pub.html %}
@@ -54,6 +57,7 @@ author_profile: true
 {% endfor %}
 
 <h2> National Conferences </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "national" %}
     {% include archive-single-pub.html %}
@@ -61,6 +65,7 @@ author_profile: true
 {% endfor %}
 
 <h2> Posters </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "poster" %}
     {% include archive-single-pub.html %}
