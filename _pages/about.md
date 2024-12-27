@@ -61,4 +61,4 @@ News
 
 Memberships
 ======
-<img src="images/hipeac.png" alt="hipeac membership logo" width="100">
+<img src="images/hipeac.png" alt="hipeac membership logo" width="300">
