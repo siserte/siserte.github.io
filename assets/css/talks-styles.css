@@ -1,37 +1,46 @@
+/* Compact item style */
 .archive__item {
     display: flex;
     flex-direction: column;
-    gap: 3px;
-    padding: 5px;
+    gap: 3px; /* Reduce spacing between elements */
+    padding: 4px; /* Reduce padding around the entire item */
     border: 1px solid #e0e0e0;
     border-radius: 5px;
     background-color: #f9f9f9;
-    font-size: 0.9rem; /* Smaller font size for compactness */
-    line-height: 1.1;  /* Tighten line spacing */
+    font-size: 0.85rem; /* Smaller font size for more compact text */
+    line-height: 1.1; /* Tighter line height */
   }
   
   .archive__item-teaser img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 3px; /* Reduce space under the image */
   }
   
   .archive__item-title {
-    font-size: 1rem;
+    font-size: 1rem; /* Adjust for readability */
     font-weight: bold;
-    margin: 0; /* Remove extra space */
+    margin: 0; /* Remove margin */
     color: #333;
   }
   
   .archive__item-meta {
-    font-size: 0.85rem;
+    font-size: 0.8rem; /* Further reduce font size */
     color: #555;
-    margin: 0; /* Remove extra space */
+    margin: 0; /* Remove margin */
   }
   
   .archive__item-date {
-    font-size: 0.8rem;
+    font-size: 0.75rem; /* Small date font */
     color: #777;
     display: flex;
     align-items: center;
-    gap: 5px;
-  }  
+    gap: 4px; /* Slight gap between icon and date */
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Optional: Reduce line-height for date */
+  .archive__item-date i {
+    font-size: 0.8rem; /* Smaller icon */
+  }
+  
