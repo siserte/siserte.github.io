@@ -8,9 +8,9 @@ author_profile: true
 {% include base_path %}
 
 <h2> Journals </h2>
+{% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "journal" %}
-    {% assign index = forloop.index %}
     {% include archive-single-pub.html %}
   {% endif %}
 {% endfor %}
