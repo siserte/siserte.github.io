@@ -1,35 +1,37 @@
-/* Archive Item Styles */
 .archive__item {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+    gap: 5px;
+    padding: 8px;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: #f9f9f9;
+    font-size: 0.9rem; /* Smaller font size for compactness */
+    line-height: 1.2;  /* Tighten line spacing */
   }
   
   .archive__item-teaser img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   
   .archive__item-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
-    color: #555;
+    margin: 0; /* Remove extra space */
+    color: #333;
   }
   
   .archive__item-meta {
-    font-size: 0.9rem;
-    color: #777;
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0; /* Remove extra space */
   }
   
   .archive__item-date {
     font-size: 0.8rem;
-    color: #999;
+    color: #777;
     display: flex;
     align-items: center;
     gap: 5px;
-  }
-  
+  }  
