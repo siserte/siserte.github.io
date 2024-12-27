@@ -10,7 +10,7 @@ author_profile: true
 <h2> Journals </h2>
 {% for post in site.publications reversed %}
   {% if post.type == "journal" %}
-    <p>[{{ forloop.index }}]</p>{% include archive-single-pub.html %}
+    {% include archive-single-pub.html %}
   {% endif %}
 {% endfor %}
 
