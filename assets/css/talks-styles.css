@@ -1,5 +1,5 @@
 /* Compact item style */
-.archive__item {
+.talk__item {
     display: flex;
     flex-direction: column;
     gap: 3px; /* Reduce spacing between elements */
@@ -11,26 +11,26 @@
     line-height: 1.1; /* Tighter line height */
   }
   
-  .archive__item-teaser img {
+  .talk__item-teaser img {
     max-width: 100%;
     border-radius: 5px;
     margin-bottom: 3px; /* Reduce space under the image */
   }
   
-  .archive__item-title {
+  .talk__item-title {
     font-size: 1rem; /* Adjust for readability */
     font-weight: bold;
     margin: 0; /* Remove margin */
     color: #333;
   }
   
-  .archive__item-meta {
+  .talk__item-meta {
     font-size: 0.8rem; /* Further reduce font size */
     color: #555;
     margin: 0; /* Remove margin */
   }
   
-  .archive__item-date {
+  .talk__item-date {
     font-size: 0.75rem; /* Small date font */
     color: #777;
     display: flex;
@@ -40,7 +40,7 @@
   }
   
   /* Optional: Reduce line-height for date */
-  .archive__item-date i {
+  .talk__item-date i {
     font-size: 0.8rem; /* Smaller icon */
   }
   
