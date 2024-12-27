@@ -71,3 +71,26 @@
     margin-top: 4px;
     margin-bottom: 0;
 }
+
+.funding-awards {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.award-item {
+    margin-bottom: 10px; /* Space between each item */
+    padding: 6px; /* Padding around each item */
+    border-bottom: 1px solid #e0e0e0; /* Subtle border to separate items */
+}
+
+.award-item p {
+    margin: 0;
+    font-size: 0.9rem; /* Smaller font size for compactness */
+    color: #333;
+}
+
+.award-item strong {
+    font-weight: bold;
+    color: #222; /* Slightly darker color for emphasis */
+}
