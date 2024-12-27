@@ -1,0 +1,35 @@
+/* Archive Item Styles */
+.archive__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .archive__item-teaser img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .archive__item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .archive__item-meta {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .archive__item-date {
+    font-size: 0.8rem;
+    color: #999;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
