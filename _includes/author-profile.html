@@ -34,10 +34,10 @@
       <li><a href="https://gitlab.bsc.es/{{ author.gitlab }}"><i class="fa-solid fa-square icon-pad-right" style="color: #feab11" aria-hidden="true"></i>BSC GitLab</a></li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "BSC Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>BSC Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "BSC Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>BSC Email</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
