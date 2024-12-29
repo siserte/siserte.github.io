@@ -31,7 +31,7 @@
         <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.gitlab %}
-      <li><a href="https://gitlab.bsc.es/{{ author.gitlab }}"><i class="fab fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>BSC GitLab</a></li>
+      <li><a href="https://gitlab.bsc.es/{{ author.gitlab }}"><i class="fa-solid fa-square icon-pad-right" style="color: #feab11" aria-hidden="true"></i>BSC GitLab</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "BSC Website" }}</a></li>
