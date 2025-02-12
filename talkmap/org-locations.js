@@ -81,8 +81,8 @@ var addressPoints = [
   ],
   [
     "Ciudad Real, Spain",
-    38.9854201,
-    -3.9285138
+    38.959734749999996,
+    -3.8828744402485436
   ],
   [
     "Denver, Colorado, USA",
@@ -176,8 +176,8 @@ var addressPoints = [
   ],
   [
     "Gdansk (Poland)",
-    54.3482907,
-    18.6540233
+    54.42880315,
+    18.79832701217957
   ],
   [
     "Benic\u00e0ssim (Spain)",
@@ -186,8 +186,8 @@ var addressPoints = [
   ],
   [
     "Le\u00f3n (Spain)",
-    42.63414505,
-    -5.971415104539984
+    42.5989995,
+    -5.5682413
   ],
   [
     "Alboraia (Spain)",
@@ -196,8 +196,8 @@ var addressPoints = [
   ],
   [
     "Stanford, California (USA)",
-    37.426540700000004,
-    -122.17030545534064
+    37.427467,
+    -122.1702445
   ],
   [
     "Burjassot (Spain)",
@@ -218,5 +218,15 @@ var addressPoints = [
     "Atlanta, Georgia (USA)",
     33.7489924,
     -84.3902644
+  ],
+  [
+    "Sant Cugat, Barcelona (Spain)",
+    41.4728432,
+    2.0817809
+  ],
+  [
+    "Teruel, Teruel (Spain)",
+    40.3436719,
+    -1.1081939
   ]
 ];
