@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "Barcelona, Spain",
@@ -176,8 +176,8 @@ var addressPoints = [
   ],
   [
     "Gdansk (Poland)",
-    54.42880315,
-    18.79832701217957
+    54.3482907,
+    18.6540233
   ],
   [
     "Benic\u00e0ssim (Spain)",
@@ -196,8 +196,8 @@ var addressPoints = [
   ],
   [
     "Stanford, California (USA)",
-    37.427467,
-    -122.1702445
+    37.426540700000004,
+    -122.17030545534064
   ],
   [
     "Burjassot (Spain)",
