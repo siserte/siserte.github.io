@@ -10,11 +10,11 @@ redirect_from:
 <p>holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain.</p>
 
 <p>Sergio is a senior researcher of the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, in the Computer Science department at Barcelona Supercomputing Center (BSC).
-He is also an instructor of High-performance Computing (HPC) at the Open University of Catalonia (UOC) and of Artifial Inteligence (AI) at the International University of Catalonia (UIC).</p>
+He is also an instructor of high-performance computing (HPC) at the Open University of Catalonia (UOC) and artificial intelligence (AI) at the International University of Catalonia (UIC).</p>
 
 <p>Sergio authored 19 journal papers with SJR rankings (seven Q1) and he actively participated in European and national research projects and industrial contracts, even taking on the responsibilities of a work package coordinator. He made significant contributions to the academic community by peer-reviewing over 60 papers and ministry projects in Spain and Poland.</p> 
 
-<p>Sergio served in several scientific committees in the most prestigious HPC conferences, including SC where he has been involved in student, infrastructure, inclusivity, and security committees. Furthermore, Sergio supervised visiting students, engineer staff, final degree/master's projects, and  PhD students, highlighting his dedication to mentoring and academic development. Sergio is the lead guest editor of the special issue “HPC Heterogeneous Systems and Subsystems” in the Future Generation Computer System journal.</p>
+<p>Sergio served on several scientific committees in the most prestigious HPC conferences, including SC where he has been involved in student, infrastructure, inclusivity, and security committees. Furthermore, Sergio supervised visiting students, engineer staff, final degree/master's projects, and  PhD students, highlighting his dedication to mentoring and academic development. Sergio is the lead guest editor of the special issue “HPC Heterogeneous Systems and Subsystems” in the Future Generation Computer System journal.</p>
 
 <p>His research interests lie, mainly, in the following areas:</p>
 <ul>
