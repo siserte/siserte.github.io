@@ -176,8 +176,8 @@ var addressPoints = [
   ],
   [
     "Benic\u00e0ssim (Spain)",
-    40.0554964,
-    0.0644165
+    40.0554183,
+    0.0644655
   ],
   [
     "Le\u00f3n (Spain)",
@@ -223,5 +223,10 @@ var addressPoints = [
     "Teruel, Teruel (Spain)",
     40.3436719,
     -1.1081939
+  ],
+  [
+    "Zaragoza, Zaragoza (Spain)",
+    41.6521342,
+    -0.8809428
   ]
 ];
