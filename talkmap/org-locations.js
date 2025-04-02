@@ -228,5 +228,10 @@ var addressPoints = [
     "Zaragoza, Zaragoza (Spain)",
     41.6521342,
     -0.8809428
+  ],
+  [
+    "Zaragoza (Spain)",
+    41.6521342,
+    -0.8809428
   ]
 ];
