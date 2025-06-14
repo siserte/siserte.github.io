@@ -21,7 +21,7 @@ redirect_from:
 <li>Dynamic processes and resources management</li>
 <li>HPC workload modeling</li>
 <li>In-network acceleration</li>
-<li>Applied artificial intelligence</li>
+<li>Applied artificial intelligence in HPC</li>
 </ul>
 
 {% comment %}
@@ -68,5 +68,8 @@ News
   </a>
   <a href="https://www.computer.org/" target="_blank" title="IEEE Computer Society">
     <img src="images/IEEE-CS.png" alt="IEEE-CS Membership Logo" class="membership-logo">
+  </a>
+  <a href="https://www.ixpug.org" target="_blank" title="Intel eXtreme Performance Users Group (IXPUG)">
+    <img src="images/ixpug.png" alt="IXPUG Membership Logo" class="membership-logo">
   </a>
 </div>
