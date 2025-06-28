@@ -17,12 +17,12 @@ var addressPoints = [
   [
     "Paris, France",
     48.8588897,
-    2.3200410217200766
+    2.320041
   ],
   [
     "Barcelona, Spain",
-    41.3828939,
-    2.1774322
+    41.3825802,
+    2.177073
   ],
   [
     "Castell\u00f3 de la Plana, Spain",
@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Politechnika Cz\u0119stochowska, Poland",
-    50.822852350000005,
-    19.115807327479168
+    50.8228524,
+    19.1158073
   ],
   [
     "Bordeaux, France",
@@ -76,8 +76,8 @@ var addressPoints = [
   ],
   [
     "Ciudad Real, Spain",
-    38.959734749999996,
-    -3.8828744402485436
+    38.9597347,
+    -3.8828744
   ],
   [
     "Denver, Colorado, USA",
@@ -101,8 +101,8 @@ var addressPoints = [
   ],
   [
     "Belfast, Northern Ireland (UK)",
-    54.596391,
-    -5.9301829
+    54.5975804,
+    -5.9277097
   ],
   [
     "Berkeley, California (USA)",
@@ -171,8 +171,8 @@ var addressPoints = [
   ],
   [
     "Gdansk (Poland)",
-    54.42880315,
-    18.79832701217957
+    54.4288032,
+    18.798327
   ],
   [
     "Benic\u00e0ssim (Spain)",
@@ -211,8 +211,8 @@ var addressPoints = [
   ],
   [
     "Atlanta, Georgia (USA)",
-    33.7489924,
-    -84.3902644
+    33.7544657,
+    -84.3898151
   ],
   [
     "Sant Cugat, Barcelona (Spain)",
@@ -223,15 +223,5 @@ var addressPoints = [
     "Teruel, Teruel (Spain)",
     40.3436719,
     -1.1081939
-  ],
-  [
-    "Zaragoza, Zaragoza (Spain)",
-    41.6521342,
-    -0.8809428
-  ],
-  [
-    "Zaragoza (Spain)",
-    41.6521342,
-    -0.8809428
   ]
 ];
