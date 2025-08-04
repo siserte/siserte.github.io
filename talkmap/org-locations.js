@@ -1,93 +1,8 @@
 var addressPoints = [
   [
-    "Madrid, Spain",
-    40.4167047,
-    -3.7035825
-  ],
-  [
-    "Valladolid, Spain",
-    41.6521807,
-    -4.728605
-  ],
-  [
-    "Lugano, Switzerland",
-    46.0050102,
-    8.9520281
-  ],
-  [
-    "Paris, France",
-    48.8588897,
-    2.320041
-  ],
-  [
     "Barcelona, Spain",
     41.3825802,
     2.177073
-  ],
-  [
-    "Castell\u00f3 de la Plana, Spain",
-    39.9860347,
-    -0.0377354
-  ],
-  [
-    "C\u00f3rdoba, Spain",
-    37.8845813,
-    -4.7760138
-  ],
-  [
-    "Timisoara, Romania",
-    45.7538355,
-    21.2257474
-  ],
-  [
-    "Rome, Italy",
-    41.8933203,
-    12.4829321
-  ],
-  [
-    "Bristol, United Kingdom",
-    51.4538022,
-    -2.5972985
-  ],
-  [
-    "M\u00e1laga, Spain",
-    36.7213028,
-    -4.4216366
-  ],
-  [
-    "Limassol, Cyprus",
-    34.6852901,
-    33.0332657
-  ],
-  [
-    "Rennes, France",
-    48.1113387,
-    -1.6800198
-  ],
-  [
-    "Politechnika Cz\u0119stochowska, Poland",
-    50.8228524,
-    19.1158073
-  ],
-  [
-    "Bordeaux, France",
-    44.841225,
-    -0.5800364
-  ],
-  [
-    "Ciudad Real, Spain",
-    38.9597347,
-    -3.8828744
-  ],
-  [
-    "Denver, Colorado, USA",
-    39.7392364,
-    -104.984862
-  ],
-  [
-    "Kobe, Japan",
-    34.6932379,
-    135.1943764
   ],
   [
     "Hamburg, Germany",
@@ -95,9 +10,94 @@ var addressPoints = [
     10.000654
   ],
   [
+    "Valladolid, Spain",
+    41.6521807,
+    -4.728605
+  ],
+  [
+    "M\u00e1laga, Spain",
+    36.7213028,
+    -4.4216366
+  ],
+  [
+    "Kobe, Japan",
+    34.6932379,
+    135.1943764
+  ],
+  [
+    "Denver, Colorado, USA",
+    39.7392364,
+    -104.984862
+  ],
+  [
     "Ostrava, Czech Republic",
     49.8349139,
     18.2820084
+  ],
+  [
+    "Rome, Italy",
+    41.8933203,
+    12.4829321
+  ],
+  [
+    "Politechnika Cz\u0119stochowska, Poland",
+    50.8228524,
+    19.1158073
+  ],
+  [
+    "Timisoara, Romania",
+    45.7538355,
+    21.2257474
+  ],
+  [
+    "Ciudad Real, Spain",
+    38.9597347,
+    -3.8828744
+  ],
+  [
+    "Lugano, Switzerland",
+    46.0050102,
+    8.9520281
+  ],
+  [
+    "Madrid, Spain",
+    40.4167047,
+    -3.7035825
+  ],
+  [
+    "Paris, France",
+    48.8588897,
+    2.320041
+  ],
+  [
+    "Bordeaux, France",
+    44.841225,
+    -0.5800364
+  ],
+  [
+    "Bristol, United Kingdom",
+    51.4538022,
+    -2.5972985
+  ],
+  [
+    "C\u00f3rdoba, Spain",
+    37.8845813,
+    -4.7760138
+  ],
+  [
+    "Castell\u00f3 de la Plana, Spain",
+    39.9860347,
+    -0.0377354
+  ],
+  [
+    "Rennes, France",
+    48.1113387,
+    -1.6800198
+  ],
+  [
+    "Limassol, Cyprus",
+    34.6852901,
+    33.0332657
   ],
   [
     "Belfast, Northern Ireland (UK)",
@@ -186,8 +186,8 @@ var addressPoints = [
   ],
   [
     "Alboraia (Spain)",
-    39.5009954,
-    -0.34948
+    39.5010119,
+    -0.3499577
   ],
   [
     "Stanford, California (USA)",
@@ -223,5 +223,10 @@ var addressPoints = [
     "Teruel, Teruel (Spain)",
     40.3436719,
     -1.1081939
+  ],
+  [
+    "Bologna (Italy)",
+    44.4938203,
+    11.3426327
   ]
 ];
