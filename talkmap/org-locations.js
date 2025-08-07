@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Bordeaux, France",
@@ -228,5 +228,10 @@ var addressPoints = [
     "Bologna (Italy)",
     44.4938203,
     11.3426327
+  ],
+  [
+    "Zaragoza (Spain)",
+    41.6521342,
+    -0.8809428
   ]
 ];

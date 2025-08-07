@@ -52,7 +52,7 @@ This research line has garnered interest from DPU early adopters such as Georgia
 <hr>
 <hr>
 
-<p><strong style="color: #808080;">PhD Thesis - High-Throughput Computation through Efficient Resource Management</strong>
+<p><strong style="color: #808080;">PhD Thesis - <a href="http://hdl.handle.net/10803/664128"> High-Throughput Computation through Efficient Resource Management</a></strong>
 Scientific applications run on supercomputers where thousands of nodes are shared among users. 
     When those applications start, their resources remain allocated until the job ends. 
     We have detected two potential approaches in resource managing, with which we increase the global throughput and provide a better utilization of the underlying resources.
