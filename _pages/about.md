@@ -11,9 +11,10 @@ redirect_from:
 
 <p>He is a senior researcher in the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, within the Computer Sciences Department at the Barcelona Supercomputing Center (BSC). In addition, Dr. Iserte teaches high-performance computing (HPC) at the Open University of Catalonia (UOC) and artificial intelligence (AI) at the International University of Catalonia (UIC).</p>
 
-<p>Dr. Iserte has authored 19 journal articles indexed in SJR, including seven in Q1 journals. He has actively contributed to multiple European and national research projects, as well as industrial collaborations—taking on roles such as work package coordinator. His academic service includes peer-reviewing over 60 papers and research proposals for ministries in Spain and Poland.</p>
+<p>Dr. Iserte's academic and professional record has showcased his independence and expertise. He has authored 20 papers in SJR Q1-Q2 journals, published in top tier HPC conferences, and received best paper awards.
+He has actively contributed to multiple European and national research projects, as well as industrial collaborations—taking on roles such as work package coordinator. His academic service includes peer-reviewing over 100 papers and research proposals for ministries in Spain and Poland.</p>
 
-<p>He has served on various scientific committees of leading HPC conferences, including the main supercomputing conference, SC, where he contributed to student programs, infrastructure, inclusivity, and security committees. He has also supervised visiting researchers, engineering staff, undergraduate and master’s theses, and Ph.D. students, reflecting his strong commitment to mentorship and academic growth. Currently, he is the lead guest editor of the special issue “HPC Heterogeneous Systems and Subsystems” in the journal Future Generation Computer Systems.</p>
+<p>He has served on various scientific committees of leading HPC conferences, including the main supercomputing conference, SC, where he contributed to student programs, infrastructure, inclusivity, and security committees. He has also supervised visiting researchers, engineering staff, undergraduate and master’s theses, and Ph.D. students, reflecting his strong commitment to mentorship and academic growth. He has served as executive guest editor of the special issues in JPDC and FGCS journals.</p>
 
 <p>His research interests primarily include:</p>
 <ul>
@@ -21,7 +22,7 @@ redirect_from:
 <li>Dynamic processes and resources management</li>
 <li>HPC workload modeling</li>
 <li>In-network acceleration</li>
-<li>Applied artificial intelligence in HPC</li>
+<li>Applied artificial intelligence</li>
 </ul>
 
 {% comment %}
