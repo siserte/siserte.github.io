@@ -7,19 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-<p>holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain.</p>
 
-<p>He is a senior researcher in the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a> research group, led by Dr. Antonio J. Peña, within the Computer Sciences Department at the Barcelona Supercomputing Center (BSC). In addition, Dr. Iserte teaches high-performance computing (HPC) at the Open University of Catalonia (UOC) and artificial intelligence (AI) at the International University of Catalonia (UIC).</p>
+<p>holds a B.S. in Computer Engineering (2011), an M.S. in Intelligent Systems (2014), and a Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain.</p>
 
-<p>Dr. Iserte's academic and professional record has showcased his independence and expertise. He has authored 20 papers in SJR Q1-Q2 journals, published in top tier HPC conferences, and received best paper awards.
-He has actively contributed to multiple European and national research projects, as well as industrial collaborations—taking on roles such as work package coordinator. His academic service includes peer-reviewing over 100 papers and research proposals for ministries in Spain and Poland.</p>
+<p>He is currently a Senior Researcher in the Accelerators and Communications for HPC (<a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/accelerators-and-communications-hpc">Accelcom</a>)
+ group, led by Dr. Antonio J. Peña, within the Computer Sciences Department at the Barcelona Supercomputing Center (BSC). He also teaches High-Performance Computing (HPC) at the Open University of Catalonia (UOC) and Artificial Intelligence (AI) at the International University of Catalonia (UIC).</p>
 
-<p>He has served on various scientific committees of leading HPC conferences, including the main supercomputing conference, SC, where he contributed to student programs, infrastructure, inclusivity, and security committees. He has also supervised visiting researchers, engineering staff, undergraduate and master’s theses, and Ph.D. students, reflecting his strong commitment to mentorship and academic growth. He has served as executive guest editor of the special issues in JPDC and FGCS journals.</p>
+<p>Dr. Iserte’s research demonstrates a solid trajectory of independence, innovation, and impact. He has authored over 20 journal papers in Q1 journals and top-tier HPC conferences, including best paper awards. His work has advanced the fields of parallel programming models, dynamic resource management, in-network computing, and applied AI. He has played key roles in numerous European, national, and industrial projects, often as work package coordinator.</p>
+
+<p>An active member of the international HPC community, Dr. Iserte has served on more than 20 scientific and organizational committees, including the main HPC conference (SC), serving on its technical, student, inclusivity, infrastructure, and security committees. He has reviewed over 200 scientific papers and research proposals and co-edited special issues for JPDC and FGCS. His mentorship record includes supervising visiting researchers, engineers, graduate students, and Ph.D. candidates.</p>
 
 <p>His research interests primarily include:</p>
 <ul>
 <li>Parallel distributed programming models</li>
-<li>Dynamic processes and resources management</li>
+<li>Dynamic heterogenous resource management</li>
 <li>HPC workload modeling</li>
 <li>In-network acceleration</li>
 <li>Applied artificial intelligence</li>
