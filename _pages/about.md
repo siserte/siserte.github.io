@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Sergio Iserte"
+title: "Dr. Sergio Iserte — HPC Researcher | IEEE Senior Member"
 author_profile: true
 redirect_from: 
   - /about/
