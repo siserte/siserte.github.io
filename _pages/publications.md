@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2> Journals </h2>
+<h2> Journals <small>({{ site.publications | where: 'type', 'journal' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "journal" %}
@@ -33,7 +33,7 @@ author_profile: true
 <a href="https://www.scimagojr.com/journalsearch.php?q=19829&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=19829" alt="SCImago Journal &amp; Country Rank"  /></a>
 </p>
 
-<h2> International Conferences </h2>
+<h2> International Conferences <small>({{ site.publications | where: 'type', 'conference' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "conference" %}
@@ -41,7 +41,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2> International Workshops </h2>
+<h2> International Workshops <small>({{ site.publications | where: 'type', 'workshop' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "workshop" %}
@@ -49,7 +49,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2> Books and Chapters </h2>
+<h2> Books and Chapters <small>({{ site.publications | where: 'type', 'book' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "book" %}
@@ -57,7 +57,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2> National Conferences </h2>
+<h2> National Conferences <small>({{ site.publications | where: 'type', 'national' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "national" %}
@@ -65,7 +65,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2> Posters </h2>
+<h2> Posters <small>({{ site.publications | where: 'type', 'poster' | size }})</small> </h2>
 {% assign counter = 1 %}
 {% for post in site.publications reversed %}
   {% if post.type == "poster" %}

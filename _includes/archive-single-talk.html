@@ -23,8 +23,14 @@
     
     <div class="talk__item-content">
       <h3 class="talk__item-title">{{ title }}</h3>
-      <p class="talk__item-meta">{{ post.venue }}, {{ post.location }}</p>
-      <p class="talk__item-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+      <p class="talk__item-meta">
+        <strong>{{ post.venue }}</strong>, 
+        <span class="talk__item-location">{{ post.location }}</span>
+        <span class="talk__item-date">
+          <i class="fa fa-clock-o" aria-hidden="true"></i> 
+          {{ post.date | date: '%B %d, %Y' }}
+        </span>
+      </p>
     </div>
     
   </article>
