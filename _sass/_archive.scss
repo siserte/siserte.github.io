@@ -223,10 +223,6 @@
   .pub-tabs__mobile-menu {
     display: block;
   }
-
-  .pub-badges {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -243,15 +239,29 @@
 .pub-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
+  justify-content: flex-start;
+  gap: 1em;
   margin-top: 2em;
   padding-top: 1.5em;
   border-top: 1px solid $border-color;
 }
 
 .pub-badges img {
-  height: 24px;
+  height: 48px;
+  width: auto;
   border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .pub-badges img {
+    width: calc(25% - 0.75em);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pub-badges img {
+    width: calc(25% - 0.75em);
+  }
 }
 
   @include breakpoint($x-large) {
