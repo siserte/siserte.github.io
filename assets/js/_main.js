@@ -96,4 +96,50 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Publication tabs functionality
+  var pubTabs = {
+    init: function() {
+      if ($('.pub-tabs').length === 0) return;
+
+      // Tab button click handlers
+      $('.pub-tabs__btn').on('click', function(e) {
+        e.preventDefault();
+        var tabId = $(this).data('tab');
+
+        if (!tabId) return;
+
+        // Update active tab button
+        $('.pub-tabs__btn').removeClass('pub-tabs__btn--active');
+        $(this).addClass('pub-tabs__btn--active');
+
+        // Update active tab panel
+        $('.pub-tab-panel').removeClass('pub-tab-panel--active');
+        $('#' + tabId).addClass('pub-tab-panel--active');
+
+        // Update mobile select
+        if ($('#pub-tab-mobile').length) {
+          $('#pub-tab-mobile').val(tabId);
+        }
+
+        // Scroll to top of content
+        $('.pub-tabs__content').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      // Mobile select change handler
+      $('#pub-tab-mobile').on('change', function() {
+        var tabId = $(this).val();
+        if (!tabId) return;
+
+        // Find the corresponding tab button and click it
+        var $button = $('.pub-tabs__btn[data-tab="' + tabId + '"]');
+        if ($button.length) {
+          $button.click();
+        }
+      });
+    }
+  };
+
+  // Initialize publication tabs
+  pubTabs.init();
+
 });

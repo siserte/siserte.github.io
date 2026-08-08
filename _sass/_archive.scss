@@ -97,6 +97,162 @@
   @include breakpoint($large) {
     padding-right: $right-sidebar-width * 0.9;
   }
+}
+
+/*
+   Publication Tabs
+   ========================================================================== */
+
+.pub-tabs {
+  margin-bottom: 2em;
+}
+
+.pub-tabs__menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 2px solid $border-color;
+  padding-bottom: 0.5em;
+}
+
+.pub-tabs__btn {
+  @include breakpoint($medium) {
+    margin-right: 0.5em;
+  }
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  color: $text-color;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.pub-tabs__btn:hover {
+  background-color: rgba(mix(#fff, $gray, 50%), 0.5);
+}
+
+.pub-tabs__btn--active {
+  background-color: $primary-color;
+  color: $text-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.pub-tabs__btn small {
+  font-size: 0.75em;
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.pub-tabs__content {
+  position: relative;
+}
+
+.pub-tab-panel {
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.pub-tab-panel--active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pub-tabs__mobile-menu {
+  display: none;
+  margin-bottom: 1.5em;
+}
+
+.pub-tabs__mobile-select {
+  width: 100%;
+  padding: 0.75em;
+  font-size: $type-size-6;
+  border: 2px solid $border-color;
+  border-radius: 0.25em;
+  background-color: $background-color;
+  color: $text-color;
+  cursor: pointer;
+
+  &:focus {
+    outline: 2px solid $primary-color;
+    border-color: $primary-color;
+  }
+
+  option {
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pub-tabs__menu {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.75em;
+    scrollbar-width: none;
+  }
+
+  .pub-tabs__menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pub-tabs__btn {
+    white-space: nowrap;
+    padding: 0.5em 0.75em;
+  }
+
+  .pub-tabs__mobile-menu {
+    display: block;
+  }
+
+  .pub-badges {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pub-tabs__btn {
+    font-size: $type-size-7;
+    padding: 0.4em 0.6em;
+  }
+
+  .pub-tabs__btn small {
+    display: none;
+  }
+}
+
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid $border-color;
+}
+
+.pub-badges img {
+  height: 24px;
+  border: none;
+}
 
   @include breakpoint($x-large) {
     padding-right: $right-sidebar-width-wide * 0.9;
@@ -106,9 +262,6 @@
     margin: 0 0 2px;
     line-height: 1.2;
   }
-
-  margin-bottom: 0.6em;
-}
 
 
 /*
