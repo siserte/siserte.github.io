@@ -246,21 +246,81 @@
   border-top: 1px solid $border-color;
 }
 
+.pub-badges a {
+  display: flex;
+  align-items: center;
+  padding: 1em 1.5em;
+  background-color: rgba(122, 130, 136, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #7a8288;
+  border: 1px solid rgba(122, 130, 136, 0.2);
+  min-width: 200px;
+}
+
+.pub-badges a:hover {
+  background-color: rgba(122, 130, 136, 0.2);
+  border-color: rgba(122, 130, 136, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(122, 130, 136, 0.3);
+}
+
+.pub-badges a:hover img {
+  transform: scale(3) !important;
+  -webkit-transform: scale(3) !important;
+}
+
 .pub-badges img {
-  height: 48px;
-  width: auto;
-  border: none;
+  height: auto !important;
+  width: 64px !important;
+  border: none !important;
+  display: inline-block !important;
+  max-width: 64px !important;
+  transform: scale(3);
+  transform-origin: top left;
+  -webkit-transform: scale(3);
+  -webkit-transform-origin: top left;
+  vertical-align: middle;
+  animation: badgeZoom 1s ease-out forwards;
+}
+
+@keyframes badgeZoom {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+    -webkit-transform: scale(3);
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .pub-badges img {
+  .pub-badges a {
     width: calc(25% - 0.75em);
+    padding: 1em 1.5em;
+  }
+
+  .pub-badges img {
+    width: 80px !important;
+    max-width: 80px !important;
+    transform: scale(4);
+    -webkit-transform: scale(4);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .pub-badges img {
+  .pub-badges a {
     width: calc(25% - 0.75em);
+    padding: 1.5em 2em;
+  }
+
+  .pub-badges img {
+    width: 96px !important;
+    max-width: 96px !important;
+    transform: scale(5);
+    -webkit-transform: scale(5);
   }
 }
 

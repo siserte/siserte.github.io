@@ -142,4 +142,25 @@ $(document).ready(function(){
   // Initialize publication tabs
   pubTabs.init();
 
+  // Scale up pub-badges dramatically using JavaScript
+  var scalePubBadges = function() {
+    if ($('.pub-badges img').length === 0) return;
+
+    $('.pub-badges img').each(function() {
+      var $img = $(this);
+      $img.css({
+        'height': '800px',
+        'width': 'auto',
+        'max-width': 'none',
+        'transform': 'scale(20)',
+        'transform-origin': 'top left',
+        '-webkit-transform': 'scale(20)',
+        '-webkit-transform-origin': 'top left'
+      });
+    });
+  };
+
+  // Scale badges after page load
+  setTimeout(scalePubBadges, 500);
+
 });
