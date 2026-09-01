@@ -1,0 +1,10 @@
+---
+title: "Tutorial: Dynamic Management of Resources in Practice"
+collection: talks
+permalink: /talks/2026-02-11-Tutorial-Dynamic-Management-of-Resources-in-Practice
+type: "seminar"
+location: "Grenoble (France)"
+date: 2026-02-11
+venue: '5th Workshop on Dynamic Resources in HPC'
+url: 'https://dynreshpc.github.io/projects/'
+---

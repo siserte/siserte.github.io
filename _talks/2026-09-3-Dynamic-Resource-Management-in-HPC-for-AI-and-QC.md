@@ -1,10 +1,10 @@
 ---
-title: "Dynamic Resources Management and In-network Offloading"
+title: "Dynamic Resource Management in HPC for AI and QC"
 collection: talks
-permalink: /talks/2024-09-12-Dynamic-Resources-Management-and-In-network-Offloading
+permalink: /talks/2026-09-3-Dynamic-Resource-Management-in-HPC-for-AI-and-QC
 type: "seminar"
 location: "Politechnika Częstochowska, Poland"
-date: 2024-09-12
+date: 2026-09-3
 venue: 'Invited by prof.dr hab.inż. Roman Wyrzykowski'
 url: 'https://pcz.pl/en/'
 ---
