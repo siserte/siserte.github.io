@@ -1,10 +1,5 @@
 var addressPoints = [
   [
-    "Madrid, Spain",
-    40.416782,
-    -3.703507
-  ],
-  [
     "Valladolid, Spain",
     41.6200024,
     -4.7259906
@@ -35,7 +30,7 @@ var addressPoints = [
     -4.7760138
   ],
   [
-    "Timisoara, Romania",
+    "Timi\u0219oara, Romania",
     45.7538355,
     21.2257474
   ],
@@ -65,9 +60,9 @@ var addressPoints = [
     -1.6800198
   ],
   [
-    "Politechnika Cz\u0119stochowska, Poland",
-    50.8228524,
-    19.1158073
+    "Cz\u0119stochowa, Poland",
+    50.8089997,
+    19.1244089
   ],
   [
     "Bordeaux, France",
@@ -95,8 +90,168 @@ var addressPoints = [
     10.0013165
   ],
   [
+    "Madrid, Spain",
+    40.416782,
+    -3.703507
+  ],
+  [
     "Ostrava, Czech Republic",
     49.8354045,
     18.292978
+  ],
+  [
+    "Munich, Germany",
+    48.1371079,
+    11.5753822
+  ],
+  [
+    "Grenoble, France",
+    45.1875602,
+    5.7357819
+  ],
+  [
+    "Poznan, Poland",
+    52.4082663,
+    16.9335199
+  ],
+  [
+    "Belfast, Northern Ireland, UK",
+    54.596391,
+    -5.9301829
+  ],
+  [
+    "Berkeley, California, USA",
+    37.8708393,
+    -122.272863
+  ],
+  [
+    "St. Charles, Illinois, USA",
+    41.9139808,
+    -88.3128183
+  ],
+  [
+    "Fiuggi, Italy",
+    41.7985608,
+    13.2204887
+  ],
+  [
+    "Amsterdam, Netherlands",
+    52.3730796,
+    4.8924534
+  ],
+  [
+    "Ljubljana, Slovenia",
+    46.0500268,
+    14.5069289
+  ],
+  [
+    "Dallas, Texas, USA",
+    32.7762719,
+    -96.7968559
+  ],
+  [
+    "Salt Lake City, Utah, USA",
+    40.7596198,
+    -111.886797
+  ],
+  [
+    "Austin, Texas, USA",
+    30.2711286,
+    -97.7436995
+  ],
+  [
+    "Turin, Italy",
+    45.0677551,
+    7.6824892
+  ],
+  [
+    "Val\u00e8ncia, Spain",
+    39.4697065,
+    -0.3763353
+  ],
+  [
+    "Almer\u00eda, Spain",
+    36.8685739,
+    -2.3120282
+  ],
+  [
+    "Garching, Germany",
+    48.2513878,
+    11.6509662
+  ],
+  [
+    "Gdansk, Poland",
+    54.3482907,
+    18.6540233
+  ],
+  [
+    "Benic\u00e0ssim, Spain",
+    40.0554183,
+    0.0644655
+  ],
+  [
+    "Le\u00f3n, Spain",
+    42.6341451,
+    -5.9714151
+  ],
+  [
+    "Alboraia, Spain",
+    39.5010119,
+    -0.3499577
+  ],
+  [
+    "Stanford, California, USA",
+    37.4265407,
+    -122.1703055
+  ],
+  [
+    "Burjassot, Spain",
+    39.5090599,
+    -0.4108581
+  ],
+  [
+    "Almassora, Spain",
+    39.9435743,
+    -0.0634783
+  ],
+  [
+    "Sevilla, Spain",
+    37.3886303,
+    -5.9953403
+  ],
+  [
+    "Atlanta, Georgia, USA",
+    33.7544657,
+    -84.3898151
+  ],
+  [
+    "Sant Cugat, Barcelona, Spain",
+    41.4707933,
+    2.0848815
+  ],
+  [
+    "Teruel, Teruel, Spain",
+    40.3436719,
+    -1.1081939
+  ],
+  [
+    "Bologna, Italy",
+    44.4938203,
+    11.3426327
+  ],
+  [
+    "Zaragoza, Spain",
+    41.6915847,
+    -0.9101268
+  ],
+  [
+    "Dresden, Germany",
+    51.0493286,
+    13.7381437
+  ],
+  [
+    "St. Louis, Missouri, USA",
+    38.6254063,
+    -90.190009
   ]
 ];
