@@ -264,11 +264,12 @@
   border-color: rgba(122, 130, 136, 0.5);
   transform: translateY(-2px);
   box-shadow: 0 2px 8px rgba(122, 130, 136, 0.3);
+  z-index: 1;
 }
 
 .pub-badges a:hover img {
-  transform: scale(3) !important;
-  -webkit-transform: scale(3) !important;
+  transform: scale(1.5) !important;
+  -webkit-transform: scale(1.5) !important;
 }
 
 .pub-badges img {
@@ -277,22 +278,23 @@
   border: none !important;
   display: inline-block !important;
   max-width: 64px !important;
-  transform: scale(3);
-  transform-origin: top left;
-  -webkit-transform: scale(3);
-  -webkit-transform-origin: top left;
+  transform-origin: center;
+  -webkit-transform-origin: center;
   vertical-align: middle;
-  animation: badgeZoom 1s ease-out forwards;
+  transition: transform 0.3s ease-in-out;
+  animation: badgeZoom 0.4s ease-out;
 }
 
 @keyframes badgeZoom {
   0% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    opacity: 0;
   }
   100% {
-    transform: scale(3);
-    -webkit-transform: scale(3);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -305,8 +307,6 @@
   .pub-badges img {
     width: 80px !important;
     max-width: 80px !important;
-    transform: scale(4);
-    -webkit-transform: scale(4);
   }
 }
 
@@ -319,8 +319,6 @@
   .pub-badges img {
     width: 96px !important;
     max-width: 96px !important;
-    transform: scale(5);
-    -webkit-transform: scale(5);
   }
 }
 
