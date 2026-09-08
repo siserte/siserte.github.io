@@ -11,8 +11,8 @@
 locale                   : "en-US"
 title                    : Sergio Iserte PhD #"Life and Work of a Devoted HPC Researcher" #"Sergio Iserte Ph.D."
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Sergio Iserte"
+description              : &description "Personal website of Dr. Sergio Iserte, Senior HPC Researcher at the Barcelona Supercomputing Center (BSC), working on dynamic resource management, parallel programming models, and in-network computing."
 url                      : "https://siserte.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siserte/siserte.github.io"
@@ -24,9 +24,9 @@ author:
   # Biographic information
   #avatar           : "2023.jpg"
   avatar           : "2025_2MB.jpg"
-  name             : #"Sergio Iserte"
-  pronouns         : #"he/him"  
-  bio              : #"Sergio Iserte holds the degrees of BS in Computer Engineering (2011), MS in Intelligent Systems (2014), and Ph.D. in Computer Science (2018) from Universitat Jaume I (UJI), Spain. Sergio is a senior researcher in the Computer Science Dpt. at Barcelona Supercomputing Center (BSC), and instructor of High-performance Computing (HPC) courses at Open University of Catalonia (UOC). He is currently involved in projects of parallel distributed programming models, dynamic resource management, workload modeling, deep learning for industrial applications, and in-network accelerators."
+  name             : "Sergio Iserte"
+  pronouns         : #"he/him"
+  bio              : "Senior HPC Researcher at Barcelona Supercomputing Center (BSC), teaching HPC at UOC and AI at UIC. Research: parallel programming models, dynamic resource management, and in-network computing."
   location         : "Almassora, Castelló (Spain)"
   employer         : "Barcelona Supercomputing Center"
   uri              : "https://www.bsc.es/iserte-agut-sergio"
@@ -129,7 +129,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "2025_2MB.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
