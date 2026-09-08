@@ -17,7 +17,14 @@ This research line is in collaborations with Technical University of Munich (TUM
 
 <p><strong style="color: #808080;">In-Network Computation and Communication Offloading</strong>
 Extending the standard de facto parallel programming model OpenMP with DPU offloading capabilities (computation and communication) fully integrated in the paradigm and using the original OpenMP syntax. 
+This includes leveraging the DPU's Data Path Accelerator (DPA) to offload collective communication operations, freeing the host CPU from collective processing and enabling computation-communication overlap; this work has been incorporated into the UCX consortium.
 This research line has garnered interest from DPU early adopters such as Georgia Tech, Texas Tech, and Sandia National Laboratory.
+</p>
+
+<p><strong style="color: #808080;">HPC-QC Resource Management</strong>
+As HPC and Quantum Computing (QC) systems converge, effective resource management of hybrid quantum-classical workloads becomes central to exploiting quantum accelerators as first-class computing resources. This research line investigates co-scheduling strategies for quantum-classical workflows and extends malleability techniques for dynamic resource management, originally developed for classical HPC applications, to QC workloads.
+
+This research line is in collaboration with the Edinburgh Parallel Computing Centre (EPCC), E4 Computer Engineering, and CINECA.
 </p>
 
 <hr>
