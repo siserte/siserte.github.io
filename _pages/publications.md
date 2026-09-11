@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+<!-- bundle exec jekyll serve -l -H localhost -->
+
 {% include base_path %}
 
 <div class="pub-tabs">

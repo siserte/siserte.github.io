@@ -5,31 +5,78 @@ permalink: /talks/
 author_profile: true
 ---
 
-<h2> International Conferences </h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "conference" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+{% include base_path %}
 
-<h2> International Workshops </h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "workshop" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+<div class="talks-page">
 
-<h2> Invited Talks, Seminars, Tutorials, and Keynotes</h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "seminar" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+{% assign conference_talks = site.talks | where: "type", "conference" %}
+{% if conference_talks.size > 0 %}
+<div class="talk-section">
+  <h2 class="talk-section__title"><i class="fa fa-users" aria-hidden="true"></i> International Conferences <span class="talk-section__count">{{ conference_talks.size }}</span></h2>
+  <div class="talk-section__list">
+    {% for post in site.talks reversed %}
+      {% if post.type == "conference" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
-<h2> National Conferences </h2>
-{% for post in site.talks reversed %}
-  {% if post.type == "national" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+{% assign workshop_talks = site.talks | where: "type", "workshop" %}
+{% if workshop_talks.size > 0 %}
+<div class="talk-section">
+  <h2 class="talk-section__title"><i class="fa fa-wrench" aria-hidden="true"></i> International Workshops <span class="talk-section__count">{{ workshop_talks.size }}</span></h2>
+  <div class="talk-section__list">
+    {% for post in site.talks reversed %}
+      {% if post.type == "workshop" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
+{% assign seminar_talks = site.talks | where: "type", "seminar" %}
+{% if seminar_talks.size > 0 %}
+<div class="talk-section">
+  <h2 class="talk-section__title"><i class="fa fa-microphone" aria-hidden="true"></i> Invited Talks, Seminars, and Keynotes <span class="talk-section__count">{{ seminar_talks.size }}</span></h2>
+  <div class="talk-section__list">
+    {% for post in site.talks reversed %}
+      {% if post.type == "seminar" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% assign tutorial_talks = site.talks | where: "type", "tutorial" %}
+{% if tutorial_talks.size > 0 %}
+<div class="talk-section">
+  <h2 class="talk-section__title"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Tutorials <span class="talk-section__count">{{ tutorial_talks.size }}</span></h2>
+  <div class="talk-section__list">
+    {% for post in site.talks reversed %}
+      {% if post.type == "tutorial" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% assign national_talks = site.talks | where: "type", "national" %}
+{% if national_talks.size > 0 %}
+<div class="talk-section">
+  <h2 class="talk-section__title"><i class="fa fa-flag" aria-hidden="true"></i> National Conferences <span class="talk-section__count">{{ national_talks.size }}</span></h2>
+  <div class="talk-section__list">
+    {% for post in site.talks reversed %}
+      {% if post.type == "national" %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+</div>

@@ -14,24 +14,25 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="talk__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
+
     {% if include.type == "grid" and teaser %}
     <div class="talk__item-teaser">
       <img src="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}" alt="" class="talk__item-image">
     </div>
     {% endif %}
-    
+
     <div class="talk__item-content">
       <h3 class="talk__item-title">{{ title }}</h3>
       <p class="talk__item-meta">
-        <strong>{{ post.venue }}</strong>, 
-        <span class="talk__item-location">{{ post.location }}</span>
-        <span class="talk__item-date">
-          <i class="fa fa-clock-o" aria-hidden="true"></i> 
-          {{ post.date | date: '%B %d, %Y' }}
-        </span>
+        <span class="talk__item-venue">{{ post.venue }}</span>
+        <span class="talk__item-location"><i class="fa fa-map-marker" aria-hidden="true"></i>{{ post.location }}</span>
       </p>
     </div>
-    
+
+    <div class="talk__item-date">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ post.date | date: '%b %-d, %Y' }}
+    </div>
+
   </article>
 </div>

@@ -401,62 +401,299 @@
 }
 
 /*
-   Compact 2-line talk items
+   Talks page - section headings
    ========================================================================== */
 
-.talk__item-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3em;
-}
+.talks-page {
+  .talk-section {
+    margin-bottom: 2em;
+  }
 
-.talk__item-title {
-  margin-bottom: 0.1em;
-  font-size: $type-size-7;
-  line-height: 1.2;
-}
+  .talk-section__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 0 0.9em;
+    padding-bottom: 0.4em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid $border-color;
 
-.talk__item-meta {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5em;
-  font-size: $type-size-7;
-  line-height: 1.2;
-  margin: 0;
-  padding: 0;
-}
+    .fa {
+      color: $info-color;
+      font-size: 0.85em;
+    }
+  }
 
-.talk__item-location {
-  color: mix(#fff, $text-color, 30%);
-  font-style: normal;
-}
-
-.talk__item-date {
-  margin-left: auto;
-  white-space: nowrap;
-}
-
-.talk__item-meta strong {
-  display: block;
-  margin-bottom: 0.25em;
-  line-height: 1.3;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
+  .talk-section__count {
+    margin-left: auto;
+    padding: 0.1em 0.6em;
+    font-size: $type-size-6;
+    font-weight: normal;
+    color: mix(#fff, $text-color, 35%);
+    background: mix(#fff, $primary-color, 90%);
+    border-radius: 999px;
+  }
 }
 
 /*
-   Mobile - stack venue and location+date vertically
+   Talk item cards
    ========================================================================== */
 
-@include breakpoint(max-width $small) {
+.talk__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85em;
+  margin-bottom: 0.6em;
+  padding: 0.85em 1.1em;
+  background: $background-color;
+  border: 1px solid $border-color;
+  border-left: 3px solid $info-color;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(30, 40, 45, 0.08);
+
+  .talk__item-content {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+
+  .talk__item-title {
+    margin: 0 0 0.1em;
+    font-size: $type-size-5;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .talk__item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15em 0.75em;
+    margin: 0;
+    padding: 0;
+    font-size: $type-size-6;
+    line-height: 1.25;
+  }
+
+  .talk__item-venue {
+    font-weight: 500;
+  }
+
   .talk__item-location {
-    display: block;
-    margin-top: 0.25em;
+    color: mix(#fff, $text-color, 25%);
+    font-style: normal;
+
+    .fa {
+      margin-right: 0.3em;
+      color: mix(#fff, $text-color, 45%);
+    }
   }
 
   .talk__item-date {
-    margin-left: 0;
-    margin-top: 0.25em;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: auto;
+    padding: 0.2em 0.65em;
+    font-size: $type-size-6;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: mix(#000, $info-color, 25%);
+    background: mix(#fff, $info-color, 82%);
+    border-radius: 999px;
+
+    .fa {
+      margin-right: 0.3em;
+    }
+  }
+}
+
+/*
+   Mobile - stack card contents vertically
+   ========================================================================== */
+
+@include breakpoint(max-width $small) {
+  .talks-page .talk-section__title {
+    flex-wrap: wrap;
+  }
+
+  .talk__item {
+    flex-wrap: wrap;
+
+    .talk__item-date {
+      margin-left: 0;
+      margin-top: 0.25em;
+    }
+  }
+}
+
+/*
+   Teaching / academic activity page
+   ========================================================================== */
+
+.teaching-page {
+
+  .cv-section {
+    margin-bottom: 2.2em;
+  }
+
+  .cv-section__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 0 0.9em;
+    padding-bottom: 0.4em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid $border-color;
+
+    .fa {
+      color: $info-color;
+      font-size: 0.85em;
+    }
+  }
+
+  .cv-subsection__title {
+    margin: 1.4em 0 0.7em;
+    font-size: $type-size-6;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: mix(#fff, $text-color, 25%);
+    border-bottom: 0;
+  }
+
+  .cv-list > .cv-entry:first-child {
+    margin-top: 0;
+  }
+
+  .cv-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85em;
+    margin-bottom: 0.6em;
+    padding: 0.85em 1.1em;
+    background: $background-color;
+    border: 1px solid $border-color;
+    border-left: 3px solid $info-color;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(30, 40, 45, 0.08);
+  }
+
+  .cv-entry__content {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+
+  .cv-entry__title {
+    margin: 0 0 0.1em;
+    font-size: $type-size-5;
+    font-weight: 600;
+    line-height: 1.3;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .cv-entry__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15em 0.75em;
+    margin: 0;
+    padding: 0;
+    font-size: $type-size-6;
+    line-height: 1.25;
+  }
+
+  .cv-entry__person {
+    font-weight: 500;
+  }
+
+  .cv-entry__org {
+    color: mix(#fff, $text-color, 25%);
+  }
+
+  .cv-entry__date {
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: auto;
+    padding: 0.2em 0.65em;
+    font-size: $type-size-6;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: mix(#000, $info-color, 25%);
+    background: mix(#fff, $info-color, 82%);
+    border-radius: 999px;
+  }
+
+  .cv-entry__date--current {
+    color: mix(#000, $success-color, 40%);
+    background: mix(#fff, $success-color, 85%);
+  }
+
+  .cv-editions {
+    margin: 0.2em 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.15em 0.6em;
+      margin: 0;
+      padding: 0.25em 0;
+      font-size: $type-size-6;
+      line-height: 1.25;
+
+      & + li {
+        border-top: 1px solid mix(#fff, $border-color, 35%);
+      }
+    }
+  }
+
+  .cv-edition__label {
+    flex-shrink: 0;
+    min-width: 6.5em;
+    font-weight: 500;
+    color: mix(#000, $info-color, 25%);
+  }
+
+  .cv-edition__org {
+    color: mix(#fff, $text-color, 25%);
+  }
+}
+
+/*
+   Mobile - stack entry contents vertically
+   ========================================================================== */
+
+@include breakpoint(max-width $small) {
+  .teaching-page {
+    .cv-section__title {
+      flex-wrap: wrap;
+    }
+
+    .cv-entry {
+      flex-wrap: wrap;
+
+      .cv-entry__date {
+        margin-left: 0;
+        margin-top: 0.25em;
+      }
+    }
+
+    .cv-edition__label {
+      min-width: 0;
+    }
   }
 }
