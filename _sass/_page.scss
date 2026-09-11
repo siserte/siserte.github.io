@@ -529,10 +529,10 @@
 }
 
 /*
-   Teaching / academic activity page
+   CV-style entry cards (teaching / activities pages)
    ========================================================================== */
 
-.teaching-page {
+.cv-page {
 
   .cv-section {
     margin-bottom: 2.2em;
@@ -620,6 +620,11 @@
 
   .cv-entry__org {
     color: mix(#fff, $text-color, 25%);
+
+    .fa {
+      margin-right: 0.3em;
+      color: mix(#fff, $text-color, 45%);
+    }
   }
 
   .cv-entry__date {
@@ -671,6 +676,54 @@
   .cv-edition__org {
     color: mix(#fff, $text-color, 25%);
   }
+
+  .cv-entry__tag {
+    font-weight: 500;
+  }
+
+  .cv-entry__desc {
+    margin: 0.15em 0 0;
+    font-size: $type-size-6;
+    line-height: 1.4;
+    color: mix(#fff, $text-color, 15%);
+  }
+
+  .cv-entry__badge {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3em;
+    padding: 0.1em 0.55em;
+    font-size: $type-size-7;
+    font-weight: 500;
+    color: mix(#000, $warning-color, 35%);
+    background: mix(#fff, $warning-color, 85%);
+    border-radius: 999px;
+  }
+
+  .cv-roles,
+  .cv-dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em;
+    margin: 0.35em 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+      padding: 0.1em 0.55em;
+      font-size: $type-size-7;
+      line-height: 1.4;
+      background: mix(#fff, $primary-color, 92%);
+      border-radius: 999px;
+    }
+  }
+
+  .cv-dates li {
+    color: mix(#000, $info-color, 25%);
+    background: mix(#fff, $info-color, 88%);
+    font-variant-numeric: tabular-nums;
+  }
 }
 
 /*
@@ -678,7 +731,7 @@
    ========================================================================== */
 
 @include breakpoint(max-width $small) {
-  .teaching-page {
+  .cv-page {
     .cv-section__title {
       flex-wrap: wrap;
     }
