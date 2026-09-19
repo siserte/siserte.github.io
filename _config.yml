@@ -26,8 +26,8 @@ author:
   avatar           : "2025_2MB.jpg"
   name             : "Sergio Iserte"
   pronouns         : #"he/him"
-  bio              : "Senior HPC Researcher at BSC, teaching HPC at UOC and AI at UIC. Research: parallel programming models, dynamic resource management, and in-network computing."
-  location         : "Almassora, Castelló (Spain)"
+  #bio              : "Senior HPC Researcher at BSC, teaching HPC at UOC and AI at UIC. Research: parallel programming models, dynamic resource management, and in-network computing."
+  #location         : "Almassora, Castelló (Spain)"
   employer         : "Barcelona Supercomputing Center"
   uri              : "https://www.bsc.es/iserte-agut-sergio"
   email            : "sergio.iserte@bsc.es" 
@@ -42,16 +42,16 @@ author:
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=54953339400"
 
   # Repositories and software development
-  bitbucket        : "siserte"
+  #bitbucket        : "siserte"
   codepen          : # Username
   dribbble         : # Username
-  github           : "siserte"
+  #github           : "siserte"
   kaggle           : # Username  
-  stackoverflow    : "4286662"
-  gitlab           : "siserte"
+  #stackoverflow    : "4286662"
+  #gitlab           : "siserte"
 
   # Social media
-  bluesky          : "siserte.bsky.social"
+  #bluesky          : "siserte.bsky.social"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -68,12 +68,12 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "siserte"  # Replace this with your X / Twitter handle
+  #twitter          : "siserte"  # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : sergioiserte4114
+  #youtube          : sergioiserte4114
   zhihu            : # URL
 
 
