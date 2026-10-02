@@ -818,8 +818,8 @@ author_profile: true
   var sections = document.querySelectorAll('.cv-accordion');
   if (!sections.length) return;
 
-  // Label each heading with the number of entries it holds, so the counts
-  // never go stale as the lists below are edited.
+  /* Label each heading with the number of entries it holds, so the counts
+     never go stale as the lists below are edited. */
   Array.prototype.forEach.call(sections, function (section) {
     var summary = section.querySelector('.cv-accordion__summary');
     var total = section.querySelectorAll('.cv-entry').length;
@@ -830,7 +830,7 @@ author_profile: true
     summary.appendChild(count);
   });
 
-  // Expanding everything also makes the whole page findable with Ctrl-F.
+  /* Expanding everything also makes the whole page findable with Ctrl-F. */
   var btn = document.querySelector('.cv-accordion-controls__btn');
   if (!btn) return;
 
